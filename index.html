@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 
 <head>
@@ -32,9 +32,7 @@ text-align:center;
 color:#2c7a3f;
 }
 
-
-
-   .image-gallery{
+.image-gallery{
 display:flex;
 gap:10px;
 justify-content:center;
@@ -102,7 +100,7 @@ border-top:1px solid #ddd;
 <button class="visitor" onclick="showVisitor()">Visitor</button>
 <button class="staff" onclick="showStaff()">Staff</button>
 </div>
-   
+
 <div class="image-gallery" id="imageGallery"></div>
 
 <div class="section"><span class="label">Plant:</span> <span id="plant"></span></div>
@@ -125,7 +123,6 @@ border-top:1px solid #ddd;
 <script>
 
 const API_URL = "https://script.google.com/macros/s/AKfycbyoLpVQfeMSRGvtpyt8DoUjGFzl5AQHQNnUfCgfPTh09NL7V67r5v_q3b7dz8tDW4Wv/exec";
-   
 
 function getPlotNumber(){
 
@@ -140,7 +137,7 @@ const plot = getPlotNumber();
 
 document.getElementById("plotTitle").innerText = plot;
 
- const response = await fetch(API_URL + "?plot=" + plot);
+const response = await fetch(API_URL + "?plot=" + plot);
 const data = await response.json();
 
 document.getElementById("plant").innerText = data.plant;
@@ -154,8 +151,25 @@ document.getElementById("lastManure").innerText = data.lastManure;
 document.getElementById("nextManure").innerText = data.nextManure;
 document.getElementById("lastWeeding").innerText = data.lastWeeding;
 
-// Load first image
-document.getElementById("plantImage").src = data.images[0];
+/* Load plant images */
+
+const gallery = document.getElementById("imageGallery");
+
+gallery.innerHTML = "";
+
+data.images.forEach(function(imgUrl){
+
+const img = document.createElement("img");
+
+img.src = imgUrl;
+
+img.onerror = function(){
+this.remove();
+};
+
+gallery.appendChild(img);
+
+});
 
 }
 

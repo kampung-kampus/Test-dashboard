@@ -136,7 +136,7 @@ const plot = getPlotNumber();
 
 document.getElementById("plotTitle").innerText = plot;
 
-const response = await fetch(API_URL + "?plot=" + plot);
+ const response = await fetch(API_URL + "?plot=" + plot);
 const data = await response.json();
 
 document.getElementById("plant").innerText = data.plant;
@@ -150,7 +150,8 @@ document.getElementById("lastManure").innerText = data.lastManure;
 document.getElementById("nextManure").innerText = data.nextManure;
 document.getElementById("lastWeeding").innerText = data.lastWeeding;
 
- document.getElementById("plantImage").src = data.images[0];
+// Load first image
+document.getElementById("plantImage").src = data.images[0];
 
 }
 

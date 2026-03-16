@@ -140,8 +140,8 @@ font-weight:bold;
 
 <script>
 
-const API_URL = "https://script.google.com/macros/s/AKfycbyoLpVQfeMSRGvtpyt8DoUjGFzl5AQHQNnUfCgfPTh09NL7V67r5v_q3b7dz8tDW4Wv/exec";
-
+const DATA_URL = "data/farm.json";
+ 
 function getPlotNumber(){
 
 const params = new URLSearchParams(window.location.search);
@@ -176,8 +176,9 @@ const plot = getPlotNumber();
 
 document.getElementById("plotTitle").innerText = plot;
 
-const response = await fetch(API_URL + "?plot=" + plot);
-const data = await response.json();
+ const response = await fetch(DATA_URL);
+const farm = await response.json();
+const data = farm[plot];
 
 document.getElementById("plant").innerText = data.plant;
 document.getElementById("staff").innerText = data.staff;

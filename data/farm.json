@@ -1,19 +1,19 @@
 {
   "Plot1": {
     "plot": "Plot1",
-    "staff": "Kale",
-    "plant": "pakchoy",
+    "staff": "Chin Hui",
+    "plant": "cabbage",
     "datePlanted": "2026-03-01",
-    "estHarvest": "2026-04-15",
+    "estHarvest": "2026-06-29",
     "lastManure": "2026-03-01",
-    "nextManure": "2026-03-11",
+    "nextManure": "2026-03-01",
     "lastWeeding": "2026-03-01",
     "uses": "Use for oriental dishes",
     "funFact": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
     ]
   },
   "Plot2": {

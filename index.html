@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -85,6 +85,23 @@ padding-top:10px;
 border-top:1px solid #ddd;
 }
 
+/* Plant status styles */
+
+.status-growing{
+color:green;
+font-weight:bold;
+}
+
+.status-soon{
+color:orange;
+font-weight:bold;
+}
+
+.status-ready{
+color:red;
+font-weight:bold;
+}
+
 </style>
 
 </head>
@@ -101,6 +118,8 @@ border-top:1px solid #ddd;
 </div>
 
 <div class="image-gallery" id="imageGallery"></div>
+
+<div class="section"><span class="label">Status:</span> <span id="status"></span></div>
 
 <div class="section"><span class="label">Plant:</span> <span id="plant"></span></div>
 <div class="section"><span class="label">Staff:</span> <span id="staff"></span></div>
@@ -121,15 +140,33 @@ border-top:1px solid #ddd;
 
 <script>
 
-const API_URL = "https://script.google.com/macros/s/AKfycbw-fwhgjxaYw-MM0GHf7ksMRG6dItt0xwUWbH1s5H4gW-yFKV60TD35LsjLzk9GnOjC/exec";
-
- 
-
+const API_URL = "https://script.google.com/macros/s/AKfycbyoLpVQfeMSRGvtpyt8DoUjGFzl5AQHQNnUfCgfPTh09NL7V67r5v_q3b7dz8tDW4Wv/exec";
 
 function getPlotNumber(){
 
 const params = new URLSearchParams(window.location.search);
 return params.get("plot");
+
+}
+
+/* Plant Status Calculation */
+
+function getPlantStatus(harvestDate){
+
+const today = new Date();
+const harvest = new Date(harvestDate);
+
+const diffDays = Math.floor((harvest - today)/(1000*60*60*24));
+
+if(diffDays <= 0){
+return {text:"🔴 Harvest Ready", class:"status-ready"};
+}
+
+if(diffDays <= 7){
+return {text:"🟡 Fertilize Soon", class:"status-soon"};
+}
+
+return {text:"🟢 Growing", class:"status-growing"};
 
 }
 
@@ -152,6 +189,16 @@ document.getElementById("funFact").innerText = data.funFact;
 document.getElementById("lastManure").innerText = data.lastManure;
 document.getElementById("nextManure").innerText = data.nextManure;
 document.getElementById("lastWeeding").innerText = data.lastWeeding;
+
+/* Display plant status */
+
+const status = getPlantStatus(data.estHarvest);
+
+const statusElement = document.getElementById("status");
+
+statusElement.innerText = status.text;
+
+statusElement.className = status.class;
 
 /* Load plant images */
 

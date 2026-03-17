@@ -85,6 +85,20 @@ padding-top:10px;
 border-top:1px solid #ddd;
 }
 
+ .staff-panel{
+background:#eef7ff;
+border-left:6px solid #2b7de9;
+padding:15px;
+margin-top:20px;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.staff-panel h3{
+margin-top:0;
+color:#2b7de9;
+}
+
 /* Plant status styles */
 
 .status-growing{
@@ -128,12 +142,17 @@ font-weight:bold;
 <div class="section"><span class="label">Uses:</span> <span id="uses"></span></div>
 <div class="section"><span class="label">Fun Fact:</span> <span id="funFact"></span></div>
 
-<div class="staff-data" id="staffSection">
+<div class="staff-data staff-panel" id="staffSection">
 
- <div class="section"><span class="label">Staff:</span> <span id="staff"></span></div>
+<h3>Staff Information</h3>
+
+<div class="section"><span class="label">Staff Name:</span> <span id="staff"></span></div>
+
 <div class="section"><span class="label">Last Manure Date:</span> <span id="lastManure"></span></div>
 <div class="section"><span class="label">Next Manure Date:</span> <span id="nextManure"></span></div>
 <div class="section"><span class="label">Last Weeding Date:</span> <span id="lastWeeding"></span></div>
+
+</div>
 
 </div>
 

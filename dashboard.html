@@ -4,6 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Farm Dashboard</title>
 
 <style>
@@ -22,6 +23,21 @@ text-align:center;
 font-size:20px;
 }
 
+.controls{
+padding:10px;
+background:white;
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+justify-content:center;
+}
+
+input, select{
+padding:8px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
@@ -32,7 +48,7 @@ padding:15px;
 .card{
 background:white;
 border-radius:10px;
-padding:15px;
+padding:12px;
 box-shadow:0 2px 8px rgba(0,0,0,0.1);
 cursor:pointer;
 transition:0.2s;
@@ -40,6 +56,10 @@ transition:0.2s;
 
 .card:hover{
 transform:scale(1.02);
+}
+
+.alert{
+border-left:6px solid red;
 }
 
 .plot{
@@ -60,11 +80,18 @@ margin-top:5px;
 .growing{ background:#2ecc71; }
 .soon{ background:#f39c12; }
 .ready{ background:#e74c3c; }
+.weeding{ background:#9b59b6; }
 
 .small{
 font-size:13px;
 color:#555;
 margin-top:4px;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+margin-top:8px;
 }
 
 </style>
@@ -75,56 +102,126 @@ margin-top:4px;
 
 <div class="header">🌿 Farm Dashboard</div>
 
+<div class="controls">
+<input type="text" id="search" placeholder="Search plot or plant...">
+<select id="filter">
+<option value="all">All</option>
+<option value="ready">Harvest Ready</option>
+<option value="soon">Manuring / Soon</option>
+<option value="weeding">Weeding Needed</option>
+<option value="growing">Growing</option>
+</select>
+
+<select id="sort">
+<option value="none">Sort: Default</option>
+<option value="urgent">Sort: Urgency</option>
+</select>
+</div>
+
 <div class="grid" id="grid"></div>
 
 <script>
 
- const DATA_URL = "https://kampung-kampus.github.io/office-farm/data/farm.json?v=" + new Date().getTime();
+const DATA_URL = "https://kampung-kampus.github.io/office-farm/data/farm.json?v=" + new Date().getTime();
 
-function getStatus(harvest){
+let farmData = {};
+
+function getStatus(data){
 
 const today = new Date();
-const h = new Date(harvest + "T00:00:00");
 
-const diff = Math.floor((h - today)/(1000*60*60*24));
+const harvest = new Date(data.estHarvest + "T00:00:00");
+const manure = new Date(data.nextManure + "T00:00:00");
+const weeding = new Date(data.lastWeeding + "T00:00:00");
 
-if(diff <= 0) return {text:"Harvest Ready", class:"ready"};
-if(diff <= 7) return {text:"Fertilize Soon", class:"soon"};
-return {text:"Growing", class:"growing"};
+const harvestDiff = Math.floor((harvest - today)/(1000*60*60*24));
+const manureDiff = Math.floor((manure - today)/(1000*60*60*24));
+const weedDiff = Math.floor((today - weeding)/(1000*60*60*24));
+
+if(harvestDiff <= 0){
+return {text:"Harvest Ready", class:"ready", priority:1};
+}
+
+if(manureDiff <= 0){
+return {text:"Ready for Manuring", class:"soon", priority:2};
+}
+
+if(manureDiff <= 3){
+return {text:"Manuring Soon", class:"soon", priority:3};
+}
+
+if(weedDiff >= 7){
+return {text:"Weeding Needed", class:"weeding", priority:4};
+}
+
+return {text:"Growing", class:"growing", priority:5};
 
 }
 
-async function loadDashboard(){
-
-const res = await fetch(DATA_URL);
-const farm = await res.json();
+function render(){
 
 const grid = document.getElementById("grid");
+grid.innerHTML = "";
 
-Object.keys(farm).forEach(plot => {
+let items = Object.keys(farmData).map(k => ({
+plot:k,
+...farmData[k]
+}));
 
-const data = farm[plot];
+const search = document.getElementById("search").value.toLowerCase();
+const filter = document.getElementById("filter").value;
+const sort = document.getElementById("sort").value;
 
-const status = getStatus(data.estHarvest);
+// FILTER
+items = items.filter(item => {
+
+const status = getStatus(item);
+
+if(search &&
+!item.plot.toLowerCase().includes(search) &&
+!item.plant.toLowerCase().includes(search)) return false;
+
+if(filter !== "all" && status.class !== filter) return false;
+
+return true;
+
+});
+
+// SORT
+if(sort === "urgent"){
+items.sort((a,b) => getStatus(a).priority - getStatus(b).priority);
+}
+
+// RENDER
+items.forEach(item => {
+
+const status = getStatus(item);
 
 const card = document.createElement("div");
 card.className = "card";
 
+// ALERT highlight
+if(status.priority <= 2){
+card.classList.add("alert");
+}
+
 card.onclick = () => {
-window.location.href = "index.html?plot=" + plot;
+window.location.href = "index.html?plot=" + item.plot;
 };
 
 card.innerHTML = `
-<div class="plot">${plot}</div>
-<div>${data.plant}</div>
+<div class="plot">${item.plot}</div>
+<div>${item.plant}</div>
 
 <div class="status ${status.class}">
 ${status.text}
 </div>
 
-<div class="small">👨‍🌾 ${data.staff}</div>
-<div class="small">📅 Planted: ${data.datePlanted}</div>
-<div class="small">🌾 Harvest: ${data.estHarvest}</div>
+<div class="small">👨‍🌾 ${item.staff}</div>
+<div class="small">📅 ${item.datePlanted}</div>
+<div class="small">🌾 ${item.estHarvest}</div>
+
+<img src="${item.images[0]}" onerror="this.style.display='none'">
 `;
 
 grid.appendChild(card);
@@ -133,7 +230,20 @@ grid.appendChild(card);
 
 }
 
-loadDashboard();
+async function load(){
+
+const res = await fetch(DATA_URL);
+farmData = await res.json();
+
+render();
+
+}
+
+document.getElementById("search").addEventListener("input", render);
+document.getElementById("filter").addEventListener("change", render);
+document.getElementById("sort").addEventListener("change", render);
+
+load();
 
 </script>
 

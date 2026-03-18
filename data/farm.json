@@ -2,7 +2,7 @@
   "Plot1": {
     "plot": "Plot1",
     "staff": "Kale",
-    "plant": "cabbage??",
+    "plant": "cabbage包菜",
     "datePlanted": "2026-03-18",
     "estHarvest": "2026-07-16",
     "lastManure": "2026-03-04",
@@ -11,9 +11,9 @@
     "uses": "Use for oriental dishes",
     "funFact": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage??1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage??2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage??3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage包菜1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage包菜2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage包菜3.jpg"
     ]
   },
   "Plot2": {
@@ -53,7 +53,7 @@
   "Plot5": {
     "plot": "Plot5",
     "staff": "KK",
-    "plant": "cabbage??",
+    "plant": "cabbage包菜",
     "datePlanted": "2026-03-01",
     "estHarvest": "2026-06-29",
     "lastManure": "2026-03-01",
@@ -62,9 +62,9 @@
     "uses": "Use for oriental dishes",
     "funFact": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage??1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage??2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage??3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage包菜1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage包菜2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage包菜3.jpg"
     ]
   }
 }

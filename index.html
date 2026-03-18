@@ -310,8 +310,8 @@ document.getElementById("plantChinese").innerText = plantParts.chinese;
 /* Other data */
 
 document.getElementById("staff").innerText = data.staff;
-document.getElementById("datePlanted").innerText = data.datePlanted;
-document.getElementById("estHarvest").innerText = data.estHarvest;
+ document.getElementById("datePlanted").innerText = data.datePlanted || "-";
+document.getElementById("estHarvest").innerText = data.estHarvest || "-";
 document.getElementById("uses").innerText = data.uses;
 document.getElementById("funFact").innerText = data.funFact;
 
@@ -329,14 +329,12 @@ statusElement.className = "status-badge " + status.class;
 
 /* PROGRESS */
 
-const planted = new Date(data.datePlanted);
-const harvest = new Date(data.estHarvest);
+ const planted = new Date(data.datePlanted + "T00:00:00");
+const harvest = new Date(data.estHarvest + "T00:00:00");
 const today = new Date();
 
-const totalDays = (harvest - planted)/(1000*60*60*24);
-const daysPassed = (today - planted)/(1000*60*60*24);
-
-let progress = Math.min(100, Math.max(0,(daysPassed/totalDays)*100));
+ const planted = new Date(data.datePlanted + "T00:00:00");
+const harvest = new Date(data.estHarvest + "T00:00:00");
 document.getElementById("growthBar").style.width = progress + "%";
 
 /* IMAGES */

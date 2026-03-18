@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -140,6 +140,19 @@ margin-right:6px;
 display:none;
 }
 
+/* PLANT NAME STYLING */
+
+#plantEnglish{
+font-size:18px;
+font-weight:bold;
+color:#2c7a3f;
+}
+
+#plantChinese{
+font-size:14px;
+color:#666;
+}
+
 </style>
 
 </head>
@@ -163,8 +176,9 @@ display:none;
 </div>
 
 <div class="section">
-<span class="label">Plant:</span>
-<span id="plant"></span>
+<span class="label">Plant:</span><br>
+<span id="plantEnglish"></span><br>
+<span id="plantChinese"></span>
 </div>
 
 <div class="section">
@@ -233,11 +247,25 @@ display:none;
 const DATA_URL = "data/farm.json?v=" + new Date().getTime();
 
 function getPlotNumber(){
-
 const params = new URLSearchParams(window.location.search);
 return params.get("plot");
+}
+
+/* SPLIT ENGLISH + CHINESE */
+
+function splitPlantName(name){
+
+const english = name.match(/[A-Za-z\s]+/);
+const chinese = name.match(/[\u4e00-\u9fff]+/);
+
+return {
+english: english ? english[0].trim() : name,
+chinese: chinese ? chinese[0] : ""
+};
 
 }
+
+/* STATUS */
 
 function getPlantStatus(harvestDate){
 
@@ -261,7 +289,6 @@ return {text:"Growing", class:"status-growing"};
 async function loadData(){
 
 const plot = getPlotNumber();
-
 document.getElementById("plotTitle").innerText = plot;
 
 const response = await fetch(DATA_URL);
@@ -273,7 +300,15 @@ document.getElementById("plotTitle").innerText="Plot not found";
 return;
 }
 
-document.getElementById("plant").innerText = data.plant;
+/* Plant name split */
+
+const plantParts = splitPlantName(data.plant);
+
+document.getElementById("plantEnglish").innerText = plantParts.english;
+document.getElementById("plantChinese").innerText = plantParts.chinese;
+
+/* Other data */
+
 document.getElementById("staff").innerText = data.staff;
 document.getElementById("datePlanted").innerText = data.datePlanted;
 document.getElementById("estHarvest").innerText = data.estHarvest;
@@ -284,16 +319,15 @@ document.getElementById("lastManure").innerText = data.lastManure;
 document.getElementById("nextManure").innerText = data.nextManure;
 document.getElementById("lastWeeding").innerText = data.lastWeeding;
 
-/* Status */
+/* STATUS */
 
 const status = getPlantStatus(data.estHarvest);
-
 const statusElement = document.getElementById("status");
 
 statusElement.innerText = status.text;
 statusElement.className = "status-badge " + status.class;
 
-/* Growth progress */
+/* PROGRESS */
 
 const planted = new Date(data.datePlanted);
 const harvest = new Date(data.estHarvest);
@@ -303,10 +337,9 @@ const totalDays = (harvest - planted)/(1000*60*60*24);
 const daysPassed = (today - planted)/(1000*60*60*24);
 
 let progress = Math.min(100, Math.max(0,(daysPassed/totalDays)*100));
-
 document.getElementById("growthBar").style.width = progress + "%";
 
-/* Images */
+/* IMAGES */
 
 const gallery = document.getElementById("imageGallery");
 gallery.innerHTML = "";
@@ -314,7 +347,6 @@ gallery.innerHTML = "";
 data.images.forEach(function(imgUrl){
 
 const img = document.createElement("img");
-
 img.src = imgUrl;
 
 img.onerror = function(){
@@ -328,9 +360,7 @@ gallery.appendChild(img);
 }
 
 function showVisitor(){
-
 document.getElementById("staffSection").style.display = "none";
-
 }
 
 function showStaff(){
@@ -338,13 +368,9 @@ function showStaff(){
 let password = prompt("Password required");
 
 if(password && password.toLowerCase() === "gui"){
-
 document.getElementById("staffSection").style.display = "block";
-
 }else{
-
 alert("Incorrect password. Access denied.");
-
 }
 
 }

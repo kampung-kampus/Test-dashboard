@@ -198,7 +198,18 @@ const sort = document.getElementById("sort").value;
 
 // FILTER
 items = items.filter(item => {
-  updateTaskSummary(items);
+
+const status = getStatus(item);
+
+if(search &&
+!item.plot.toLowerCase().includes(search) &&
+!item.plant.toLowerCase().includes(search)) return false;
+
+if(filter !== "all" && status.class !== filter) return false;
+
+return true;
+
+});
 
 const status = getStatus(item);
 
@@ -287,9 +298,9 @@ render();
 
 }
 
-document.getElementById("search").addEventListener("input", render);
-document.getElementById("filter").addEventListener("change", render);
-document.getElementById("sort").addEventListener("change", render);
+document.getElementById("taskHarvest").innerText = "🔴 " + harvest + " Harvest Ready";
+document.getElementById("taskManure").innerText = "🟡 " + manure + " Manure Today";
+document.getElementById("taskWeeding").innerText = "🟣 " + weeding + " Weeding Needed";
 
 load();
 

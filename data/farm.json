@@ -83,5 +83,22 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/banana2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/banana3.jpg"
     ]
+  },
+  "A03": {
+    "plot": "A03",
+    "staff": "Gwen",
+    "plant": "Basil",
+    "datePlanted": "2026-03-02",
+    "estHarvest": "",
+    "lastManure": "2026-03-07",
+    "nextManure": "2026-03-25",
+    "lastWeeding": "2026-03-18",
+    "uses": "Culinary herb for flavoring dishes, teas, and oils.",
+    "funFact": "Sacred in many cultures; repels insects naturally.",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil3.jpg"
+    ]
   }
 }

@@ -69,19 +69,19 @@
   },
   "A01": {
     "plot": "A01",
-    "staff": "Chin Hui",
-    "plant": "pakchoy",
+    "staff": "KK",
+    "plant": "cabbage",
     "datePlanted": "2026-03-01",
-    "estHarvest": "2026-04-15",
+    "estHarvest": "2026-06-29",
     "lastManure": "2026-03-01",
     "nextManure": "2026-03-11",
     "lastWeeding": "2026-03-01",
     "uses": "Use for oriental dishes",
-    "funFact": "Good for all including young and old.",
+    "funFact": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
     ]
   }
 }

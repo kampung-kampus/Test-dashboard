@@ -282,8 +282,8 @@ statusEl.innerText = status.text;
 statusEl.className = "status-badge " + status.class;
 
 /* PROGRESS */
-const planted = new Date(data.datePlanted);
-const harvest = new Date(data.estHarvest);
+const planted = new Date(data.datePlanted + "T00:00:00");
+const harvest = new Date(data.estHarvest + "T00:00:00");
 const today = new Date();
 
 const total = (harvest - planted)/(1000*60*60*24);

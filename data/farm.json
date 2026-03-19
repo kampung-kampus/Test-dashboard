@@ -2,7 +2,7 @@
   "Plot1": {
     "plot": "Plot1",
     "staff": "KK",
-    "plant": "pakchoy",
+    "plant": "Pak choy",
     "datePlanted": "2026-03-16",
     "estHarvest": "2026-04-30",
     "lastManure": "2026-03-16",
@@ -19,7 +19,7 @@
   "Plot2": {
     "plot": "Plot2",
     "staff": "Chin Hui",
-    "plant": "pakchoy",
+    "plant": "Pak choy",
     "datePlanted": "2026-03-04",
     "estHarvest": "2026-04-18",
     "lastManure": "2026-03-04",
@@ -36,7 +36,7 @@
   "Plot4": {
     "plot": "Plot4",
     "staff": "KK",
-    "plant": "cabbage",
+    "plant": "Cabbage",
     "datePlanted": "2026-03-04",
     "estHarvest": "2026-07-02",
     "lastManure": "2026-03-04",
@@ -53,7 +53,7 @@
   "Plot5": {
     "plot": "Plot5",
     "staff": "KK",
-    "plant": "cabbage",
+    "plant": "Cabbage",
     "datePlanted": "2026-03-01",
     "estHarvest": "2026-06-29",
     "lastManure": "2026-03-01",
@@ -70,7 +70,7 @@
   "A01": {
     "plot": "A01",
     "staff": "Kale",
-    "plant": "pakchoy",
+    "plant": "Pak choy",
     "datePlanted": "2026-03-06",
     "estHarvest": "2026-04-20",
     "lastManure": "2026-03-06",

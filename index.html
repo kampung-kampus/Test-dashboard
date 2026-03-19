@@ -76,16 +76,59 @@ border-radius:8px;
 box-shadow:0 2px 6px rgba(0,0,0,0.2);
 }
 
-.status{
+/* STATUS BADGE */
+
+.status-badge{
+display:inline-block;
+padding:6px 12px;
+border-radius:20px;
 font-weight:bold;
-margin-top:10px;
+color:white;
+}
+
+.status-growing{ background:#2ecc71; }
+.status-soon{ background:#f39c12; }
+.status-ready{ background:#e74c3c; }
+
+/* PROGRESS BAR */
+
+.progress-container{
+margin-top:8px;
+background:#eee;
+border-radius:20px;
+height:14px;
+overflow:hidden;
+}
+
+.progress-bar{
+height:14px;
+background:#2ecc71;
+width:0%;
+transition:width 0.5s ease;
+}
+
+/* STAFF PANEL */
+
+.staff-panel{
+background:#eef7ff;
+border-left:6px solid #2b7de9;
+padding:15px;
+margin-top:20px;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.staff-panel h3{
+margin-top:0;
+color:#2b7de9;
+}
+
+.icon{
+margin-right:6px;
 }
 
 .staff-data{
 display:none;
-margin-top:15px;
-padding-top:10px;
-border-top:1px solid #ddd;
 }
 
 </style>
@@ -105,18 +148,71 @@ border-top:1px solid #ddd;
 
 <div class="image-gallery" id="imageGallery"></div>
 
-<div class="section"><span class="label">Plant:</span> <span id="plant"></span></div>
-<div class="section"><span class="label">Date Planted:</span> <span id="datePlanted"></span></div>
-<div class="section"><span class="label">Est Harvest:</span> <span id="estHarvest"></span></div>
-<div class="section"><span class="label">Uses:</span> <span id="uses"></span></div>
-<div class="section"><span class="label">Fun Fact:</span> <span id="funFact"></span></div>
+<div class="section">
+<span class="label">Status:</span>
+<span id="status" class="status-badge"></span>
+</div>
 
-<div class="staff-data" id="staffSection">
+<div class="section">
+<span class="label">Plant:</span>
+<span id="plant"></span>
+</div>
 
-<div class="section"><span class="label">Staff:</span> <span id="staff"></span></div>
-<div class="section"><span class="label">Last Manure:</span> <span id="lastManure"></span></div>
-<div class="section"><span class="label">Next Manure:</span> <span id="nextManure"></span></div>
-<div class="section"><span class="label">Last Weeding:</span> <span id="lastWeeding"></span></div>
+<div class="section">
+<span class="label">Date Planted:</span>
+<span id="datePlanted"></span>
+</div>
+
+<div class="section">
+<span class="label">Est Harvest:</span>
+<span id="estHarvest"></span>
+</div>
+
+<div class="section">
+<span class="label">Growth Progress</span>
+
+<div class="progress-container">
+<div class="progress-bar" id="growthBar"></div>
+</div>
+</div>
+
+<div class="section">
+<span class="label">Uses:</span>
+<span id="uses"></span>
+</div>
+
+<div class="section">
+<span class="label">Fun Fact:</span>
+<span id="funFact"></span>
+</div>
+
+<div class="staff-data staff-panel" id="staffSection">
+
+<h3>👨‍🌾 Staff Information</h3>
+
+<div class="section">
+<span class="icon">👨‍🌾</span>
+<span class="label">Staff Name:</span>
+<span id="staff"></span>
+</div>
+
+<div class="section">
+<span class="icon">🌱</span>
+<span class="label">Last Manure:</span>
+<span id="lastManure"></span>
+</div>
+
+<div class="section">
+<span class="icon">🧪</span>
+<span class="label">Next Manure:</span>
+<span id="nextManure"></span>
+</div>
+
+<div class="section">
+<span class="icon">🌿</span>
+<span class="label">Last Weeding:</span>
+<span id="lastWeeding"></span>
+</div>
 
 </div>
 
@@ -128,6 +224,24 @@ const DATA_URL = "https://kampung-kampus.github.io/office-farm/data/farm.json?v=
 
 function getPlot(){
 return new URLSearchParams(window.location.search).get("plot");
+}
+
+function getStatus(harvestDate){
+
+const today = new Date();
+const harvest = new Date(harvestDate);
+
+const diffDays = Math.floor((harvest - today)/(1000*60*60*24));
+
+if(diffDays <= 0){
+return {text:"Harvest Ready", class:"status-ready"};
+}
+
+if(diffDays <= 7){
+return {text:"Fertilize Soon", class:"status-soon"};
+}
+
+return {text:"Growing", class:"status-growing"};
 }
 
 async function load(){
@@ -143,7 +257,6 @@ document.getElementById("plotTitle").innerText = plot;
 
 const res = await fetch(DATA_URL);
 const farm = await res.json();
-
 const data = farm[plot];
 
 if(!data){
@@ -162,7 +275,24 @@ document.getElementById("lastManure").innerText = data.lastManure;
 document.getElementById("nextManure").innerText = data.nextManure;
 document.getElementById("lastWeeding").innerText = data.lastWeeding;
 
-// images
+/* STATUS */
+const status = getStatus(data.estHarvest);
+const statusEl = document.getElementById("status");
+statusEl.innerText = status.text;
+statusEl.className = "status-badge " + status.class;
+
+/* PROGRESS */
+const planted = new Date(data.datePlanted);
+const harvest = new Date(data.estHarvest);
+const today = new Date();
+
+const total = (harvest - planted)/(1000*60*60*24);
+const done = (today - planted)/(1000*60*60*24);
+
+let progress = Math.min(100, Math.max(0,(done/total)*100));
+document.getElementById("growthBar").style.width = progress + "%";
+
+/* IMAGES */
 const gallery = document.getElementById("imageGallery");
 gallery.innerHTML = "";
 

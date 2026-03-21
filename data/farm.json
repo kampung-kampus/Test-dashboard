@@ -1,76 +1,4 @@
 {
-  "Plot1": {
-    "plot": "Plot1",
-    "staff": "KK",
-    "plant": "pakchoy",
-    "datePlanted": "2026-03-16",
-    "estHarvest": "2026-04-30",
-    "lastManure": "2026-03-16",
-    "nextManure": "2026-03-26",
-    "lastWeeding": "2026-03-16",
-    "uses": "Use for oriental dishes",
-    "funFact": "Good for all including young and old.",
-    "botanical": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy3.jpg"
-    ]
-  },
-  "Plot2": {
-    "plot": "Plot2",
-    "staff": "Chin Hui",
-    "plant": "pakchoy",
-    "datePlanted": "2026-03-04",
-    "estHarvest": "2026-04-18",
-    "lastManure": "2026-03-04",
-    "nextManure": "2026-03-18",
-    "lastWeeding": "2026-03-04",
-    "uses": "Use for oriental dishes",
-    "funFact": "Good for all including young and old.",
-    "botanical": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy3.jpg"
-    ]
-  },
-  "Plot4": {
-    "plot": "Plot4",
-    "staff": "KK",
-    "plant": "cabbage",
-    "datePlanted": "2026-03-04",
-    "estHarvest": "2026-07-02",
-    "lastManure": "2026-03-04",
-    "nextManure": "2026-03-25",
-    "lastWeeding": "2026-03-03",
-    "uses": "Use for oriental dishes",
-    "funFact": "",
-    "botanical": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
-    ]
-  },
-  "Plot5": {
-    "plot": "Plot5",
-    "staff": "KK",
-    "plant": "cabbage",
-    "datePlanted": "2026-03-01",
-    "estHarvest": "2026-06-29",
-    "lastManure": "2026-03-01",
-    "nextManure": "2026-03-11",
-    "lastWeeding": "2026-03-16",
-    "uses": "Use for oriental dishes",
-    "funFact": "",
-    "botanical": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
-    ]
-  },
   "A01": {
     "plot": "A01",
     "staff": "Chin Hui",
@@ -231,6 +159,96 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce1.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce3.jpg"
+    ]
+  },
+  "Plot1": {
+    "plot": "Plot1",
+    "staff": "KK",
+    "plant": "pakchoy",
+    "datePlanted": "2026-03-16",
+    "estHarvest": "2026-04-30",
+    "lastManure": "2026-03-16",
+    "nextManure": "2026-03-26",
+    "lastWeeding": "2026-03-16",
+    "uses": "Use for oriental dishes",
+    "funFact": "Good for all including young and old.",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy3.jpg"
+    ]
+  },
+  "Plot2": {
+    "plot": "Plot2",
+    "staff": "Chin Hui",
+    "plant": "pakchoy",
+    "datePlanted": "2026-03-04",
+    "estHarvest": "2026-04-18",
+    "lastManure": "2026-03-04",
+    "nextManure": "2026-03-18",
+    "lastWeeding": "2026-03-04",
+    "uses": "Use for oriental dishes",
+    "funFact": "Good for all including young and old.",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy3.jpg"
+    ]
+  },
+  "Plot4": {
+    "plot": "Plot4",
+    "staff": "KK",
+    "plant": "cabbage",
+    "datePlanted": "2026-03-04",
+    "estHarvest": "2026-07-02",
+    "lastManure": "2026-03-04",
+    "nextManure": "2026-03-25",
+    "lastWeeding": "2026-03-03",
+    "uses": "Use for oriental dishes",
+    "funFact": "",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
+    ]
+  },
+  "Plot5": {
+    "plot": "Plot5",
+    "staff": "KK",
+    "plant": "cabbage",
+    "datePlanted": "2026-03-01",
+    "estHarvest": "2026-06-29",
+    "lastManure": "2026-03-01",
+    "nextManure": "2026-03-11",
+    "lastWeeding": "2026-03-16",
+    "uses": "Use for oriental dishes",
+    "funFact": "",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
+    ]
+  },
+  "AO2": {
+    "plot": "AO2",
+    "staff": "Chin Hui",
+    "plant": "Banana flower",
+    "datePlanted": "",
+    "estHarvest": "",
+    "lastManure": "",
+    "nextManure": "",
+    "lastWeeding": "",
+    "uses": "",
+    "funFact": "",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bananaflower1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bananaflower2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bananaflower3.jpg"
     ]
   }
 }

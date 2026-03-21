@@ -17,7 +17,6 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon3.jpg"
     ]
   },
-  
   "A07": {
     "plot": "A07",
     "staff": "Mrs Tang",
@@ -36,8 +35,6 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bayam3.jpg"
     ]
   },
- 
- 
   "A11": {
     "plot": "A11",
     "staff": "Mrs Tang",
@@ -74,16 +71,15 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil3.jpg"
     ]
   },
-  
   "Plot1": {
     "plot": "Plot1",
     "staff": "Mrs Tang",
     "plant": "Veld grape",
-    "datePlanted": "2025-06-22",
-    "estHarvest": "",
-    "lastManure": "2026-02-04",
-    "nextManure": "2026-03-28",
-    "lastWeeding": "2026-01-27",
+    "datePlanted": "2025-07-10",
+    "estHarvest": "2028-04-05",
+    "lastManure": "2026-03-05",
+    "nextManure": "2026-03-26",
+    "lastWeeding": "2026-03-03",
     "uses": "Traditional medicinal plant. Use to speed  up healing  fractured bones, sprains  joint pain. Widely use for reducing joint inflammation (arthritis)",
     "funFact": "Veld grape and dragon fruit  look very similar, often causing confusion among gardeners.",
     "botanical": "Cissus quadrangularis",
@@ -93,8 +89,6 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape3.jpg"
     ]
   },
-   
-   
   "AO2": {
     "plot": "AO2",
     "staff": "Mrs Tang",

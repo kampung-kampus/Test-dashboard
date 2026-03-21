@@ -35,24 +35,6 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bayam3.jpg"
     ]
   },
-  "A11": {
-    "plot": "A11",
-    "staff": "Mrs Tang",
-    "plant": "Sweet potato leaf",
-    "datePlanted": "2026-01-12",
-    "estHarvest": "2026-05-12",
-    "lastManure": "2026-01-20",
-    "nextManure": "2026-03-27",
-    "lastWeeding": "2026-03-03",
-    "uses": "Tubers eaten roasted, boiled, or fried.",
-    "funFact": "Leaves edible too; highly nutritious root crop.",
-    "botanical": "Ipomoea batatas",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/sweetpotatoleaf1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/sweetpotatoleaf2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/sweetpotatoleaf3.jpg"
-    ]
-  },
   "A12": {
     "plot": "A12",
     "staff": "Mrs Tang",
@@ -170,6 +152,24 @@
     "lastManure": "2026-02-24",
     "nextManure": "2026-03-26",
     "lastWeeding": "2026-02-10",
+    "uses": "Stir-fried or steamed leafy vegetable.",
+    "funFact": "Popular in Cantonese cuisine; flowers are edible too.",
+    "botanical": "Brassica rapa",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum3.jpg"
+    ]
+  },
+  "A11": {
+    "plot": "A11",
+    "staff": "KK",
+    "plant": "Choy sum",
+    "datePlanted": "2026-03-16",
+    "estHarvest": "2026-04-15",
+    "lastManure": "2026-03-13",
+    "nextManure": "2026-03-30",
+    "lastWeeding": "2026-03-13",
     "uses": "Stir-fried or steamed leafy vegetable.",
     "funFact": "Popular in Cantonese cuisine; flowers are edible too.",
     "botanical": "Brassica rapa",

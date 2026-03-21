@@ -17,8 +17,78 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon3.jpg"
     ]
   },
-
-
+  "A03": {
+    "plot": "A03",
+    "staff": "Pris",
+    "plant": "Basil",
+    "datePlanted": "2026-03-01",
+    "estHarvest": "2028-11-25",
+    "lastManure": "2026-03-02",
+    "nextManure": "2026-03-24",
+    "lastWeeding": "2026-03-03",
+    "uses": "Culinary herb for flavoring dishes, teas, and oils.",
+    "funFact": "Sacred in many cultures; repels insects naturally.",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil3.jpg"
+    ]
+  },
+  "A04": {
+    "plot": "A04",
+    "staff": "Kale",
+    "plant": "Bayam",
+    "datePlanted": "2026-03-12",
+    "estHarvest": "",
+    "lastManure": "2026-03-19",
+    "nextManure": "2026-03-26",
+    "lastWeeding": "2026-03-17",
+    "uses": "Leafy vegetable, eaten stir-fried or in soups.",
+    "funFact": "Ancient grain family; leaves rich in iron and calcium",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bayam1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bayam2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bayam3.jpg"
+    ]
+  },
+  "A07": {
+    "plot": "A07",
+    "staff": "Mrs Tang",
+    "plant": "Bayam",
+    "datePlanted": "2026-02-06",
+    "estHarvest": "2026-03-13",
+    "lastManure": "2026-02-04",
+    "nextManure": "2026-03-25",
+    "lastWeeding": "2026-02-05",
+    "uses": "Leafy vegetable, eaten stir-fried or in soups.",
+    "funFact": "Ancient grain family; leaves rich in iron and calcium",
+    "botanical": "Amaranthus",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bayam1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bayam2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bayam3.jpg"
+    ]
+  },
+  "A10": {
+    "plot": "A10",
+    "staff": "Pris",
+    "plant": "Black face general",
+    "datePlanted": "2026-03-01",
+    "estHarvest": "",
+    "lastManure": "2026-03-01",
+    "nextManure": "2026-03-30",
+    "lastWeeding": "2026-03-17",
+    "uses": "Traditional medicinal herb, used in teas.",
+    "funFact": "Known in Chinese medicine; believed to detoxify body.",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/blackfacegeneral1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/blackfacegeneral2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/blackfacegeneral3.jpg"
+    ]
+  },
   "A11": {
     "plot": "A11",
     "staff": "Mrs Tang",
@@ -55,8 +125,96 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil3.jpg"
     ]
   },
- 
-
+  "B01": {
+    "plot": "B01",
+    "staff": "Pris",
+    "plant": "Lettuce",
+    "datePlanted": "2026-03-01",
+    "estHarvest": "2026-04-20",
+    "lastManure": "2026-03-02",
+    "nextManure": "2026-03-22",
+    "lastWeeding": "2026-03-04",
+    "uses": "Eaten raw in salads or wraps.",
+    "funFact": "Ancient Roman delicacy; grows quickly.",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce3.jpg"
+    ]
+  },
+  "Plot1": {
+    "plot": "Plot1",
+    "staff": "Mrs Tang",
+    "plant": "Veld grape",
+    "datePlanted": "2026-01-22",
+    "estHarvest": "",
+    "lastManure": "2026-02-04",
+    "nextManure": "2026-03-28",
+    "lastWeeding": "2026-01-27",
+    "uses": "Traditional medicinal plant. Use to speed  up healing  fractured bones, sprains  joint pain. Widely use for reducing joint inflammation (arthritis)",
+    "funFact": "Veld grape and dragon fruit  look very similar, often causing confusion among gardeners.",
+    "botanical": "Cissus quadrangularis",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape3.jpg"
+    ]
+  },
+  "Plot2": {
+    "plot": "Plot2",
+    "staff": "Chin Hui",
+    "plant": "pakchoy",
+    "datePlanted": "2026-03-04",
+    "estHarvest": "2026-04-18",
+    "lastManure": "2026-03-04",
+    "nextManure": "2026-03-18",
+    "lastWeeding": "2026-03-04",
+    "uses": "Use for oriental dishes",
+    "funFact": "Good for all including young and old.",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy3.jpg"
+    ]
+  },
+  "Plot4": {
+    "plot": "Plot4",
+    "staff": "KK",
+    "plant": "cabbage",
+    "datePlanted": "2026-03-04",
+    "estHarvest": "2026-07-02",
+    "lastManure": "2026-03-04",
+    "nextManure": "2026-03-25",
+    "lastWeeding": "2026-03-03",
+    "uses": "Use for oriental dishes",
+    "funFact": "",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
+    ]
+  },
+  "Plot5": {
+    "plot": "Plot5",
+    "staff": "KK",
+    "plant": "cabbage",
+    "datePlanted": "2026-03-01",
+    "estHarvest": "2026-06-29",
+    "lastManure": "2026-03-01",
+    "nextManure": "2026-03-11",
+    "lastWeeding": "2026-03-16",
+    "uses": "Use for oriental dishes",
+    "funFact": "",
+    "botanical": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
+    ]
+  },
   "AO2": {
     "plot": "AO2",
     "staff": "Mrs Tang",
@@ -66,7 +224,7 @@
     "lastManure": "2026-03-03",
     "nextManure": "2026-03-26",
     "lastWeeding": "2026-03-03",
-    "uses": "Germinating  seeds and preparing saplings for planting.",
+    "uses": "Germinate seeds and preparing saplings for planting",
     "funFact": "",
     "botanical": "",
     "images": [

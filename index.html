@@ -194,7 +194,7 @@ display:none;
 
    <div class="section">
 <span class="label">Empty Plot:</span>
-<span id="botanical"></span>
+<span id="empty"></span>
 </div>
 
 <div class="staff-data staff-panel" id="staffSection">
@@ -322,6 +322,9 @@ function showVisitor(){
 document.getElementById("staffSection").style.display="none";
 }
 
+    if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
 function showStaff(){
 
 let pw = prompt("Password required");
@@ -332,10 +335,7 @@ document.getElementById("staffSection").style.display="block";
 alert("Incorrect password");
 }
 
-  if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js");
-}
-
+  
 }
 
 load();

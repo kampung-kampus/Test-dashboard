@@ -281,7 +281,13 @@ return;
 
 document.getElementById("plant").innerText = data.plant;
    document.getElementById("botanical").innerText = data.botanical || "";
-   document.getElementById("empty").innerText = data.empty || "";
+ 
+    
+const emptyEl = document.getElementById("empty");
+if(emptyEl){
+  emptyEl.innerText = data.empty || "";
+}
+
 document.getElementById("staff").innerText = data.staff;
 document.getElementById("datePlanted").innerText = data.datePlanted;
 document.getElementById("estHarvest").innerText = data.estHarvest;

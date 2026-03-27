@@ -335,11 +335,8 @@ document.getElementById("staffSection").style.display="none";
     if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("service-worker.js");
 }
-function showStaff(){
-
-let pw = prompt("Password required");
-
-function showStaff(){
+ 
+   function showStaff(){
 
   let pw = prompt("Password required");
 
@@ -349,7 +346,7 @@ function showStaff(){
 
     section.style.display = "block";
 
-    // ✅ AUTO SCROLL TO STAFF SECTION
+    // ✅ AUTO SCROLL
     section.scrollIntoView({
       behavior: "smooth",
       block: "start"

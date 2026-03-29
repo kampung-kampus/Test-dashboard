@@ -96,21 +96,21 @@
   },
   "A07": {
     "plot": "A07",
-    "staff": "KK",
-    "plant": "Bayam",
-    "datePlanted": "2026-02-20",
-    "estHarvest": "2026-03-27",
-    "lastManure": "2026-02-20",
-    "nextManure": "2026-04-08",
-    "lastWeeding": "2026-02-20",
-    "uses": "Leafy vegetable, eaten stir-fried or in soups.",
-    "funFact": "Ancient grain family; leaves rich in iron and calcium",
-    "botanical": "Amaranthus",
+    "staff": "Kale",
+    "plant": "Cabbage",
+    "datePlanted": "",
+    "estHarvest": "",
+    "lastManure": "",
+    "nextManure": "",
+    "lastWeeding": "",
+    "uses": "Used in salads, stir-fries, soups, and pickling.",
+    "funFact": "Can be stored for months; grows well in cool climates.",
+    "botanical": "Brassica oleracea var. capitata",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bayam1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bayam2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bayam3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
     ]
   },
   "A08": {

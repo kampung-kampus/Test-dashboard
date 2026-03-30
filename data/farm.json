@@ -2,20 +2,20 @@
   "A01": {
     "plot": "A01",
     "staff": "Mrs Tang",
-    "plant": "Choy sum",
-    "datePlanted": "",
-    "estHarvest": "",
-    "lastManure": "",
-    "nextManure": "",
-    "lastWeeding": "",
-    "uses": "Stir-fried or steamed leafy vegetable.",
-    "funFact": "Popular in Cantonese cuisine; flowers are edible too.",
-    "botanical": "Brassica rapa",
+    "plant": "Wintermelon",
+    "datePlanted": "2026-01-02",
+    "estHarvest": "2026-04-12",
+    "lastManure": "2026-01-02",
+    "nextManure": "2026-04-10",
+    "lastWeeding": "2026-01-02",
+    "uses": "Cooked in soups, stews, and desserts.",
+    "funFact": "Large fruit; used in Chinese cuisine.",
+    "botanical": "Benincasa hispida",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon3.jpg"
     ]
   },
   "A02": {
@@ -73,25 +73,6 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/purslane1.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/purslane2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/purslane3.jpg"
-    ]
-  },
-  "A05": {
-    "plot": "A05",
-    "staff": "Mrs Tang",
-    "plant": "Wintermelon",
-    "datePlanted": "2026-01-21",
-    "estHarvest": "2026-05-01",
-    "lastManure": "2026-01-21",
-    "nextManure": "2026-03-30",
-    "lastWeeding": "2026-01-21",
-    "uses": "Cooked in soups, stews, and desserts.",
-    "funFact": "Large fruit; used in Chinese cuisine.",
-    "botanical": "Benincasa hispida",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon3.jpg"
     ]
   },
   "A06": {

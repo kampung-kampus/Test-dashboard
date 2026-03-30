@@ -249,20 +249,20 @@
   "B14": {
     "plot": "B14",
     "staff": "Mrs Tang",
-    "plant": "Snake brinjal",
-    "datePlanted": "2026-01-02",
-    "estHarvest": "2026-04-12",
-    "lastManure": "2026-03-03",
-    "nextManure": "2026-03-26",
-    "lastWeeding": "2026-03-02",
-    "uses": "Cooked in curries and stir-fries.",
-    "funFact": "Long, slender eggplant variety; popular in Asia.",
-    "botanical": "Solanum melongena",
+    "plant": "Empty",
+    "datePlanted": "",
+    "estHarvest": "",
+    "lastManure": "",
+    "nextManure": "",
+    "lastWeeding": "",
+    "uses": "Empty plots",
+    "funFact": "",
+    "botanical": "",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/snakebrinjal1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/snakebrinjal2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/snakebrinjal3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty3.jpg"
     ]
   },
   "B16": {

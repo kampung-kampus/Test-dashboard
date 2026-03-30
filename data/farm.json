@@ -454,5 +454,24 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum3.jpg"
     ]
+  },
+  "C06": {
+    "plot": "C06",
+    "staff": "Mrs Tang",
+    "plant": "Lettuce",
+    "datePlanted": "2026-02-19",
+    "estHarvest": "2026-04-10",
+    "lastManure": "2026-03-27",
+    "nextManure": "2026-03-26",
+    "lastWeeding": "2026-02-20",
+    "uses": "Eaten raw in salads or wraps.",
+    "funFact": "Ancient Roman delicacy; grows quickly.",
+    "botanical": "Lactuca sativa",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce3.jpg"
+    ]
   }
 }

@@ -625,5 +625,24 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil3.jpg"
     ]
+  },
+  "B07": {
+    "plot": "B07",
+    "staff": "Mrs Tang",
+    "plant": "Empty",
+    "datePlanted": "",
+    "estHarvest": "",
+    "lastManure": "",
+    "nextManure": "",
+    "lastWeeding": "",
+    "uses": "Empty plots",
+    "funFact": "",
+    "botanical": "",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty3.jpg"
+    ]
   }
 }

@@ -683,63 +683,6 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/3.jpg"
     ]
   },
-  "Plot1": {
-    "plot": "Plot1",
-    "staff": "Mrs Tang",
-    "plant": "Veld grape",
-    "datePlanted": "2026-01-05",
-    "estHarvest": "2028-10-01",
-    "lastManure": "2026-01-05",
-    "nextManure": "2026-03-18",
-    "lastWeeding": "2026-01-05",
-    "uses": "Traditional medicinal plant. Use to speed  up healing  fractured bones, sprains  joint pain. Widely use for reducing joint inflammation (arthritis)",
-    "funFact": "Veld grape and dragon fruit  look very similar, often causing confusion among gardeners.",
-    "botanical": "Cissus quadrangularis",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape3.jpg"
-    ]
-  },
-  "Plot4": {
-    "plot": "Plot4",
-    "staff": "Pris",
-    "plant": "Empty",
-    "datePlanted": "",
-    "estHarvest": "",
-    "lastManure": "",
-    "nextManure": "",
-    "lastWeeding": "",
-    "uses": "Empty plots",
-    "funFact": "",
-    "botanical": "",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty3.jpg"
-    ]
-  },
-  "Plot5": {
-    "plot": "Plot5",
-    "staff": "Chin Hui",
-    "plant": "Empty",
-    "datePlanted": "",
-    "estHarvest": "",
-    "lastManure": "",
-    "nextManure": "",
-    "lastWeeding": "",
-    "uses": "Empty plots",
-    "funFact": "",
-    "botanical": "",
-    "empty": "Fallow",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty3.jpg"
-    ]
-  },
   "C14": {
     "plot": "C14",
     "staff": "Mrs Tang",
@@ -835,118 +778,23 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum3.jpg"
     ]
   },
-  "Plot2": {
-    "plot": "Plot2",
+  "Plot1": {
+    "plot": "Plot1",
     "staff": "Mrs Tang",
-    "plant": "Empty",
-    "datePlanted": "",
-    "estHarvest": "",
-    "lastManure": "",
-    "nextManure": "",
-    "lastWeeding": "",
-    "uses": "Empty plots",
-    "funFact": "",
-    "botanical": "",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty3.jpg"
-    ]
-  },
-  "Plot3": {
-    "plot": "Plot3",
-    "staff": "Kale",
-    "plant": "Cucumber",
-    "datePlanted": "2026-02-06",
-    "estHarvest": "2026-04-07",
-    "lastManure": "2026-02-06",
-    "nextManure": "2026-04-03",
-    "lastWeeding": "2026-04-15",
-    "uses": "Eaten raw, pickled, or juiced.",
-    "funFact": "95% water; ancient cultivation in India.",
-    "botanical": "Cucumis sativus",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cucumber1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cucumber2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cucumber3.jpg"
-    ]
-  },
-  "Plot6": {
-    "plot": "Plot6",
-    "staff": "Mrs Tang",
-    "plant": "Lettuce",
-    "datePlanted": "2026-02-28",
-    "estHarvest": "2026-04-19",
-    "lastManure": "2026-02-28",
-    "nextManure": "2026-04-17",
-    "lastWeeding": "2026-02-13",
-    "uses": "Eaten raw in salads or wraps.",
-    "funFact": "Ancient Roman delicacy; grows quickly.",
-    "botanical": "Lactuca sativa",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce3.jpg"
-    ]
-  },
-  "Plot7": {
-    "plot": "Plot7",
-    "staff": "Mrs Tang",
-    "plant": "Choy sum",
-    "datePlanted": "2026-04-01",
-    "estHarvest": "2026-05-01",
-    "lastManure": "2026-04-01",
-    "nextManure": "2026-05-02",
-    "lastWeeding": "2026-04-01",
-    "uses": "Stir-fried or steamed leafy vegetable.",
-    "funFact": "Popular in Cantonese cuisine; flowers are edible too.",
-    "botanical": "Brassica rapa",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum3.jpg"
-    ]
-  },
-  "Plot8": {
-    "plot": "Plot8",
-    "staff": "Mrs Tang",
-    "plant": "Cabbage",
-    "datePlanted": "2026-04-01",
-    "estHarvest": "2026-07-30",
-    "lastManure": "2026-04-01",
-    "nextManure": "2026-07-30",
-    "lastWeeding": "2026-04-01",
-    "uses": "Used in salads, stir-fries, soups, and pickling.",
-    "funFact": "Can be stored for months; grows well in cool climates.",
-    "botanical": "Brassica oleracea var. capitata",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
-    ]
-  },
-  "Plot9": {
-    "plot": "Plot9",
-    "staff": "Mrs Tang",
-    "plant": "Cabbage",
-    "datePlanted": "2026-04-01",
-    "estHarvest": "2026-07-30",
-    "lastManure": "2026-04-01",
+    "plant": "Veld grape",
+    "datePlanted": "2026-02-12",
+    "estHarvest": "2028-11-08",
+    "lastManure": "2026-02-12",
     "nextManure": "2026-07-16",
-    "lastWeeding": "2026-04-01",
-    "uses": "Used in salads, stir-fries, soups, and pickling.",
-    "funFact": "Can be stored for months; grows well in cool climates.",
-    "botanical": "Brassica oleracea var. capitata",
+    "lastWeeding": "2026-02-12",
+    "uses": "Traditional medicinal plant. Use to speed  up healing  fractured bones, sprains  joint pain. Widely use for reducing joint inflammation (arthritis)",
+    "funFact": "Veld grape and dragon fruit  look very similar, often causing confusion among gardeners.",
+    "botanical": "Cissus quadrangularis",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape3.jpg"
     ]
   }
 }

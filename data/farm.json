@@ -834,5 +834,24 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum3.jpg"
     ]
+  },
+  "Plot2": {
+    "plot": "Plot2",
+    "staff": "Mrs Tang",
+    "plant": "Sweet potato",
+    "datePlanted": "2026-02-12",
+    "estHarvest": "2026-06-12",
+    "lastManure": "2026-02-12",
+    "nextManure": "2026-04-30",
+    "lastWeeding": "2026-02-12",
+    "uses": "Tubers eaten roasted, boiled, or fried.",
+    "funFact": "Leaves edible too; highly nutritious root crop.",
+    "botanical": "Ipomoea batatas",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/sweetpotato1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/sweetpotato2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/sweetpotato3.jpg"
+    ]
   }
 }

@@ -910,5 +910,24 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum3.jpg"
     ]
+  },
+  "Plot8": {
+    "plot": "Plot8",
+    "staff": "Mrs Tang",
+    "plant": "Cabbage",
+    "datePlanted": "2026-04-01",
+    "estHarvest": "2026-07-30",
+    "lastManure": "2026-04-01",
+    "nextManure": "2026-07-30",
+    "lastWeeding": "2026-04-01",
+    "uses": "Used in salads, stir-fries, soups, and pickling.",
+    "funFact": "Can be stored for months; grows well in cool climates.",
+    "botanical": "Brassica oleracea var. capitata",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
+    ]
   }
 }

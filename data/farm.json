@@ -872,5 +872,24 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cucumber2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cucumber3.jpg"
     ]
+  },
+  "Plot6": {
+    "plot": "Plot6",
+    "staff": "Mrs Tang",
+    "plant": "Lettuce",
+    "datePlanted": "2026-02-28",
+    "estHarvest": "2026-04-19",
+    "lastManure": "2026-02-28",
+    "nextManure": "2026-04-17",
+    "lastWeeding": "2026-02-13",
+    "uses": "Eaten raw in salads or wraps.",
+    "funFact": "Ancient Roman delicacy; grows quickly.",
+    "botanical": "Lactuca sativa",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/lettuce3.jpg"
+    ]
   }
 }

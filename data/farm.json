@@ -853,5 +853,24 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/sweetpotato2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/sweetpotato3.jpg"
     ]
+  },
+  "Plot3": {
+    "plot": "Plot3",
+    "staff": "Mrs Tang",
+    "plant": "Veld grape",
+    "datePlanted": "2026-03-05",
+    "estHarvest": "2028-11-29",
+    "lastManure": "2026-03-19",
+    "nextManure": "2026-04-16",
+    "lastWeeding": "2026-03-12",
+    "uses": "Traditional medicinal plant. Use to speed  up healing  fractured bones, sprains  joint pain. Widely use for reducing joint inflammation (arthritis)",
+    "funFact": "Veld grape and dragon fruit  look very similar, often causing confusion among gardeners.",
+    "botanical": "Cissus quadrangularis",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape3.jpg"
+    ]
   }
 }

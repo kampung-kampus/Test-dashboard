@@ -18,25 +18,6 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon3.jpg"
     ]
   },
-  "A02": {
-    "plot": "A02",
-    "staff": "Mrs Tang",
-    "plant": "Miscellaneous plants",
-    "datePlanted": "",
-    "estHarvest": "",
-    "lastManure": "",
-    "nextManure": "",
-    "lastWeeding": "",
-    "uses": "",
-    "funFact": "",
-    "botanical": "",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/miscellaneousplants1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/miscellaneousplants2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/miscellaneousplants3.jpg"
-    ]
-  },
   "A03": {
     "plot": "A03",
     "staff": "Mrs Tang",
@@ -871,6 +852,25 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape1.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape3.jpg"
+    ]
+  },
+  "A02": {
+    "plot": "A02",
+    "staff": "Mrs Tang",
+    "plant": "Nursery",
+    "datePlanted": "",
+    "estHarvest": "",
+    "lastManure": "",
+    "nextManure": "",
+    "lastWeeding": "",
+    "uses": "Germinating  seeds and preparing a variety  of  saplings for planting.",
+    "funFact": "Nursery is like a  childcare centre protecting  and nurturing  the young plants. Saplings are kept in the nursery  until they are ready to be moved to the main plots for planting. ",
+    "botanical": "",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/nursery1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/nursery2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/nursery3.jpg"
     ]
   }
 }

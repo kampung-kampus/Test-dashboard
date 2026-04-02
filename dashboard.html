@@ -299,8 +299,14 @@ if(status.class === "ready") harvest++;
 if(status.class === "soon") manure++;
 if(status.class === "weeding") weeding++;
 
-});
+});   
 
+// ✅ update UI (NO HTML HERE)
+document.getElementById("taskHarvest").innerText = "🔴 " + harvest + " Harvest Ready";
+document.getElementById("taskManure").innerText = "🟡 " + manure + " Manure Today";
+document.getElementById("taskWeeding").innerText = "🟣 " + weeding + " Weeding Needed";
+
+}
 
 
 function downloadCSV() {
@@ -328,15 +334,9 @@ function downloadCSV() {
 
 
 
-   
 
-// ✅ update UI (NO HTML HERE)
-document.getElementById("taskHarvest").innerText = "🔴 " + harvest + " Harvest Ready";
-document.getElementById("taskManure").innerText = "🟡 " + manure + " Manure Today";
-document.getElementById("taskWeeding").innerText = "🟣 " + weeding + " Weeding Needed";
 
-}
-
+  
 async function load(){
 
 const res = await fetch(DATA_URL);

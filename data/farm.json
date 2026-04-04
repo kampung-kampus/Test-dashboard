@@ -876,20 +876,20 @@
   "Plot10": {
     "plot": "Plot10",
     "staff": "Mrs Tang",
-    "plant": "testing plant 4",
-    "datePlanted": "2026-04-04",
-    "estHarvest": "2026-04-13",
-    "lastManure": "2026-04-11",
-    "nextManure": "2026-04-22",
-    "lastWeeding": "2026-04-08",
-    "uses": "4 uses",
-    "funFact": "4 fun fact ",
-    "botanical": "4names",
+    "plant": "Golden cherry",
+    "datePlanted": "2026-04-02",
+    "estHarvest": "2026-05-02",
+    "lastManure": "2026-04-03",
+    "nextManure": "2026-04-10",
+    "lastWeeding": "2026-04-02",
+    "uses": "Use for jam",
+    "funFact": "Sweet and sour",
+    "botanical": "gold",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/testingplant41.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/testingplant42.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/testingplant43.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/goldencherry1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/goldencherry2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/goldencherry3.jpg"
     ]
   },
   "Plot5": {

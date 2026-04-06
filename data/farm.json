@@ -819,20 +819,20 @@
   "Plot3": {
     "plot": "Plot3",
     "staff": "Mrs Tang",
-    "plant": "Veld grape",
-    "datePlanted": "2026-03-05",
-    "estHarvest": "2028-11-29",
-    "lastManure": "2026-03-19",
-    "nextManure": "2026-04-16",
-    "lastWeeding": "2026-03-12",
-    "uses": "Traditional medicinal plant. Use to speed  up healing  fractured bones, sprains  joint pain. Widely use for reducing joint inflammation (arthritis)",
-    "funFact": "Veld grape and dragon fruit  look very similar, often causing confusion among gardeners.",
-    "botanical": "Cissus quadrangularis",
+    "plant": "Orange",
+    "datePlanted": "2026-04-03",
+    "estHarvest": "",
+    "lastManure": "2026-04-04",
+    "nextManure": "2026-04-23",
+    "lastWeeding": "2026-04-02",
+    "uses": "",
+    "funFact": "",
+    "botanical": "",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/veldgrape3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/orange1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/orange2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/orange3.jpg"
     ]
   },
   "A02": {
@@ -852,63 +852,6 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/nursery1.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/nursery2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/nursery3.jpg"
-    ]
-  },
-  "Plot6": {
-    "plot": "Plot6",
-    "staff": "Mrs Tang",
-    "plant": "Test plant 2",
-    "datePlanted": "2026-04-04",
-    "estHarvest": "",
-    "lastManure": "2026-04-04",
-    "nextManure": "2026-04-25",
-    "lastWeeding": "2026-04-10",
-    "uses": "test use",
-    "funFact": "test fun fact",
-    "botanical": "TEST NAME",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/testplant21.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/testplant22.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/testplant23.jpg"
-    ]
-  },
-  "Plot10": {
-    "plot": "Plot10",
-    "staff": "Mrs Tang",
-    "plant": "Golden cherry",
-    "datePlanted": "2026-04-02",
-    "estHarvest": "2026-05-02",
-    "lastManure": "2026-04-03",
-    "nextManure": "2026-04-10",
-    "lastWeeding": "2026-04-02",
-    "uses": "Use for jam",
-    "funFact": "Sweet and sour",
-    "botanical": "gold",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/goldencherry1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/goldencherry2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/goldencherry3.jpg"
-    ]
-  },
-  "Plot5": {
-    "plot": "Plot5",
-    "staff": "KK",
-    "plant": "Avocado",
-    "datePlanted": "2026-04-02",
-    "estHarvest": "2026-05-02",
-    "lastManure": "2026-04-03",
-    "nextManure": "2026-04-16",
-    "lastWeeding": "2026-04-04",
-    "uses": "breakfast fruit",
-    "funFact": "free of bad fats",
-    "botanical": " Persea americana",
-    "empty": "",
-    "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/avocado1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/avocado2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/avocado3.jpg"
     ]
   }
 }

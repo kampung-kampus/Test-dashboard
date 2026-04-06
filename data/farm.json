@@ -894,21 +894,21 @@
   },
   "Plot5": {
     "plot": "Plot5",
-    "staff": "KK",
-    "plant": "Avocado",
+    "staff": "Mrs Tang",
+    "plant": "Grapes",
     "datePlanted": "2026-04-02",
-    "estHarvest": "2026-05-02",
+    "estHarvest": "2026-04-17",
     "lastManure": "2026-04-03",
-    "nextManure": "2026-04-16",
-    "lastWeeding": "2026-04-04",
-    "uses": "breakfast fruit",
-    "funFact": "free of bad fats",
-    "botanical": " Persea americana",
+    "nextManure": "2026-04-20",
+    "lastWeeding": "2026-04-28",
+    "uses": "Use to make wine",
+    "funFact": "Red wine is matched with fish",
+    "botanical": "Vitis",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/avocado1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/avocado2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/avocado3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/grapes1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/grapes2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/grapes3.jpg"
     ]
   },
   "Plot8": {

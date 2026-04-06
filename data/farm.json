@@ -853,5 +853,62 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/nursery2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/nursery3.jpg"
     ]
+  },
+  "Plot6": {
+    "plot": "Plot6",
+    "staff": "Mrs Tang",
+    "plant": "Pineapple",
+    "datePlanted": "2026-04-02",
+    "estHarvest": "2026-04-07",
+    "lastManure": "2026-04-22",
+    "nextManure": "",
+    "lastWeeding": "2026-04-04",
+    "uses": "test pine",
+    "funFact": "tst fun",
+    "botanical": "PINy",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pineapple1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pineapple2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pineapple3.jpg"
+    ]
+  },
+  "Plot10": {
+    "plot": "Plot10",
+    "staff": "Mrs Tang",
+    "plant": "Golden cherry",
+    "datePlanted": "2026-04-02",
+    "estHarvest": "2026-05-02",
+    "lastManure": "2026-04-03",
+    "nextManure": "2026-04-10",
+    "lastWeeding": "2026-04-02",
+    "uses": "Use for jam",
+    "funFact": "Sweet and sour",
+    "botanical": "gold",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/goldencherry1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/goldencherry2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/goldencherry3.jpg"
+    ]
+  },
+  "Plot5": {
+    "plot": "Plot5",
+    "staff": "KK",
+    "plant": "Avocado",
+    "datePlanted": "2026-04-02",
+    "estHarvest": "2026-05-02",
+    "lastManure": "2026-04-03",
+    "nextManure": "2026-04-16",
+    "lastWeeding": "2026-04-04",
+    "uses": "breakfast fruit",
+    "funFact": "free of bad fats",
+    "botanical": " Persea americana",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/avocado1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/avocado2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/avocado3.jpg"
+    ]
   }
 }

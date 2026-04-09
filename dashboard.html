@@ -131,6 +131,10 @@ border-radius:15px;
 <button onclick="downloadCSV()">⬇ Download CSV</button>
 -->
 
+  <button onclick="downloadCSVFromSheet()">
+📥 Download Full History
+</button>
+
 <select id="filter">
 <option value="all">All</option>
 <option value="ready">Harvest Ready</option>
@@ -329,6 +333,26 @@ function downloadCSV() {
   a.click();
 }
 */
+
+  function downloadCSVFromSheet() {
+
+  google.script.run
+    .withSuccessHandler(csv => {
+
+      let blob = new Blob([csv], { type: "text/csv" });
+      let url = URL.createObjectURL(blob);
+
+      let a = document.createElement("a");
+      a.href = url;
+      a.download = "master_plot_log.csv";
+      a.click();
+
+    })
+    .getMasterLogCSV();
+}
+
+
+  
   
 async function load(){
 

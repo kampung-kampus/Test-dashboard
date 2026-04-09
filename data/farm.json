@@ -39,21 +39,21 @@
   },
   "A04": {
     "plot": "A04",
-    "staff": "Mrs Tang",
-    "plant": "Purslane",
-    "datePlanted": "2026-03-10",
-    "estHarvest": "2026-04-09",
-    "lastManure": "2026-03-11",
-    "nextManure": "2026-04-23",
-    "lastWeeding": "2026-03-12",
-    "uses": "Can be eaten raw or cooked or stems can be pickled  in vinegar or spices.",
-    "funFact": "In Chinese folklore and traditional medicine, it is known as Ma Chi Xian and nicknamed the \"vegetable for long life\" due to its dense nutrient profile. A nutritious plant that is high in omega-3 fatty acids.",
-    "botanical": "Portulaca oleracea.",
+    "staff": "Pris",
+    "plant": "Choy sum",
+    "datePlanted": "2026-04-04",
+    "estHarvest": "2026-05-04",
+    "lastManure": "2026-04-04",
+    "nextManure": "2026-05-02",
+    "lastWeeding": "2026-04-04",
+    "uses": "Stir-fried or steamed leafy vegetable.",
+    "funFact": "Popular in Cantonese cuisine; flowers are edible too.",
+    "botanical": "Brassica rapa",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/purslane1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/purslane2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/purslane3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum3.jpg"
     ]
   },
   "A05": {

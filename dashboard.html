@@ -8,132 +8,125 @@
 <title>Farm Dashboard</title>
 
 <style>
-
-body{
-font-family:Arial;
-background:#f4f6f8;
-margin:0;
+body {
+  font-family: Arial;
+  background: #f4f6f8;
+  margin: 0;
 }
 
-.header{
-background:#2c7a3f;
-color:white;
-padding:15px;
-text-align:center;
-font-size:20px;
+.header {
+  background: #2c7a3f;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
 }
 
-.controls{
-padding:10px;
-background:white;
-display:flex;
-flex-wrap:wrap;
-gap:10px;
-justify-content:center;
+.controls {
+  padding: 10px;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
-input, select{
-padding:8px;
-border-radius:5px;
-border:1px solid #ccc;
+input, select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:15px;
-padding:15px;
+#downloadBtn {
+  display: block;
+  padding: 8px 16px;
+  background: #2c7a3f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  min-height: 36px;
 }
 
-.card{
-background:white;
-border-radius:10px;
-padding:12px;
-box-shadow:0 2px 8px rgba(0,0,0,0.1);
-cursor:pointer;
-transition:0.2s;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 15px;
 }
 
-.card:hover{
-transform:scale(1.02);
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.2s;
 }
 
-.alert{
-border-left:6px solid red;
+.card:hover {
+  transform: scale(1.02);
 }
 
-.plot{
-font-weight:bold;
-font-size:18px;
-color:#2c7a3f;
+.alert {
+  border-left: 6px solid red;
 }
 
-  .empty{
-  background:#7f8c8d;  /* grey */
+.plot {
+  font-weight: bold;
+  font-size: 18px;
+  color: #2c7a3f;
 }
 
-.status{
-display:inline-block;
-padding:4px 10px;
-border-radius:15px;
-color:white;
-font-size:12px;
-margin-top:5px;
+.empty {
+  background: #7f8c8d;
 }
 
-.growing{ background:#2ecc71; }
-.soon{ background:#f39c12; }
-.ready{ background:#e74c3c; }
-.weeding{ background:#9b59b6; }
-
-.small{
-font-size:13px;
-color:#555;
-margin-top:4px;
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
 }
 
-.card img{
-width:100%;
-border-radius:8px;
-margin-top:8px;
+.growing { background: #2ecc71; }
+.soon    { background: #f39c12; }
+.ready   { background: #e74c3c; }
+.weeding { background: #9b59b6; }
+
+.small {
+  font-size: 13px;
+  color: #555;
+  margin-top: 4px;
 }
 
-  .task-summary{
-display:flex;
-gap:10px;
-align-items:center;
-margin-left:10px;
-font-weight:bold;
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 8px;
 }
 
-.task-summary span{
-background:#eee;
-padding:5px 10px;
-border-radius:15px;
+.task-summary {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 10px;
+  font-weight: bold;
 }
+
+.task-summary span {
+  background: #eee;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
 .emoji {
   font-size: 2em;
 }
-
- /* @media only screen and (max-width: 600px) {
-  #downloadBtn {
-    display: block !important;
-    visibility: visible !important;
-    width: calc(100% - 20px);
-    margin: 5px 0;
-    order: -1;
-  }
-
-  .task-summary {
-    flex-wrap: wrap;
-    margin-left: 0;
-  }
-
-  .task-summary span {
-    font-size: 12px;
-    padding: 4px 8px;
-  }
-}*/
 
 @media only screen and (max-width: 600px) {
   .controls {
@@ -153,37 +146,12 @@ border-radius:15px;
     min-height: 36px !important;
   }
 
-
-
-#downloadBtn {
-  display: block;
-  padding: 8px 16px;
-  background: #2c7a3f;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 14px;
-  min-height: 36px;
-}
-  
   .task-summary {
     flex-wrap: wrap;
     margin-left: 0;
     width: 100%;
   }
 }
-
-
-
-  .task-summary span {
-    font-size: 12px;
-    padding: 4px 8px;
-  }
-}
-  
-
-
 
 </style>
 

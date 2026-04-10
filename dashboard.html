@@ -114,6 +114,17 @@ border-radius:15px;
 .emoji {
   font-size: 2em;
 }
+
+  
+  /* This ensures the button is visible even on small screens */
+@media only screen and (max-width: 600px) {
+  #downloadBtn {
+    display: block !important; /* Forces the button to show */
+    visibility: visible !important;
+  }
+}
+
+  
 </style>
 
 </head>

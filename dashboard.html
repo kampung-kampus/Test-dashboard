@@ -134,32 +134,47 @@ border-radius:15px;
     padding: 4px 8px;
   }
 }*/
+
 @media only screen and (max-width: 600px) {
   .controls {
-    overflow: visible !important;
     flex-direction: column !important;
     align-items: stretch !important;
+    overflow: visible !important;
   }
 
-  #downloadBtn {
+  .controls input,
+  .controls select,
+  .controls button {
     display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
     visibility: visible !important;
     opacity: 1 !important;
-    width: 100% !important;
-    order: -1 !important;
-    margin: 5px 0 !important;
+    min-height: 36px !important;
   }
 
+
+
+#downloadBtn {
+  display: block;
+  padding: 8px 16px;
+  background: #2c7a3f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  min-height: 36px;
+}
+  
   .task-summary {
     flex-wrap: wrap;
     margin-left: 0;
     width: 100%;
   }
 }
-  .task-summary {
-    flex-wrap: wrap;
-    margin-left: 0;
-  }
+
+
 
   .task-summary span {
     font-size: 12px;

@@ -116,14 +116,20 @@ border-radius:15px;
 }
 
   
-  /* This ensures the button is visible even on small screens */
-@media only screen and (max-width: 600px) {
+  
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
   #downloadBtn {
-    display: block !important; /* Forces the button to show */
+    display: block !important;
     visibility: visible !important;
+    width: 100%; /* Makes it easier to tap on a phone */
+    margin: 5px 0;
   }
 }
-
   
 </style>
 

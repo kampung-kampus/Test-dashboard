@@ -115,22 +115,29 @@ border-radius:15px;
   font-size: 2em;
 }
 
-  
-  
-
-
-
-
-
   @media only screen and (max-width: 600px) {
   #downloadBtn {
     display: block !important;
     visibility: visible !important;
-    width: 100%; /* Makes it easier to tap on a phone */
+    width: calc(100% - 20px);
     margin: 5px 0;
+    order: -1;
+  }
+
+  .task-summary {
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+
+  .task-summary span {
+    font-size: 12px;
+    padding: 4px 8px;
   }
 }
   
+
+
+
 </style>
 
 </head>

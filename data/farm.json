@@ -59,20 +59,20 @@
   "A05": {
     "plot": "A05",
     "staff": "Mrs Tang",
-    "plant": "Lady finger",
-    "datePlanted": "2026-01-30",
-    "estHarvest": "2026-03-26",
-    "lastManure": "2026-01-30",
+    "plant": "Hairy gourd",
+    "datePlanted": "2026-02-05",
+    "estHarvest": "",
+    "lastManure": "2026-02-05",
     "nextManure": "2026-04-16",
-    "lastWeeding": "2026-01-30",
-    "uses": "Used in curries, fried, or stewed.",
-    "funFact": "Hot water steeped with it can help reduce sugar level in blood.",
-    "botanical": "Abelmoschus esculentus",
+    "lastWeeding": "2026-03-05",
+    "uses": "",
+    "funFact": "",
+    "botanical": "",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ladyfinger1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ladyfinger2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ladyfinger3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/hairygourd1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/hairygourd2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/hairygourd3.jpg"
     ]
   },
   "A06": {

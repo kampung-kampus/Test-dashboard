@@ -1,7 +1,325 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farm Dashboard</title>
 
+<style>
 
+body {
+  font-family: Arial;
+  background: #f4f6f8;
+  margin: 0;
+}
 
+.header {
+  background: #2c7a3f;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.controls {
+  padding: 10px;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+input, select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#downloadBtn {
+  display: block;
+  padding: 8px 16px;
+  background: #2c7a3f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  min-height: 36px;
+}
+
+#downloadBtn:hover {
+  background: #256d35;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 15px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.alert {
+  border-left: 6px solid red;
+}
+
+.plot {
+  font-weight: bold;
+  font-size: 18px;
+  color: #2c7a3f;
+}
+
+.empty {
+  background: #7f8c8d;
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.growing { background: #2ecc71; }
+.soon    { background: #f39c12; }
+.ready   { background: #e74c3c; }
+.weeding { background: #9b59b6; }
+
+.small {
+  font-size: 13px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.task-summary {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.task-summary span {
+  background: #eee;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.emoji {
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  .controls {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    overflow: visible !important;
+  }
+
+  .controls input,
+  .controls select,
+  .controls button {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    min-height: 36px !important;
+  }
+
+  .task-summary {
+    flex-wrap: wrap;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">🌿 Farm Dashboard</div>
+
+<div class="controls">
+
+  <input type="text" id="search" placeholder="Search plot or plant...">
+
+  <button id="downloadBtn" onclick="downloadCSVFromSheet()">
+    📥 Download Full History
+  </button>
+
+  <select id="filter">
+    <option value="all">All</option>
+    <option value="ready">Harvest Ready</option>
+    <option value="soon">Manuring Soon</option>
+    <option value="weeding">Weeding Needed</option>
+    <option value="empty">Empty</option>
+  </select>
+
+  <select id="sort">
+    <option value="none">Sort: Default</option>
+    <option value="urgent">Sort: Urgency</option>
+  </select>
+
+  <div class="task-summary">
+    <span id="taskHarvest">🔴 0 Harvest Ready</span>
+    <span id="taskManure">🟡 0 Manure Today</span>
+    <span id="taskWeeding">🟣 0 Weeding Needed</span>
+  </div>
+
+</div>
+
+<div class="grid" id="grid"></div>
+
+<script>
+
+const DATA_URL = "https://kampung-kampus.github.io/office-farm/data/farm.json?v=" + new Date().getTime();
+
+let farmData = {};
+
+function getStatus(data) {
+  const today = new Date();
+
+  if (!data.plant || data.plant.trim() === "" || data.plant.toLowerCase() === "empty") {
+    return { text: "Empty Plot", class: "empty", priority: 0 };
+  }
+
+  const harvest = new Date(data.estHarvest + "T00:00:00");
+  const manure  = new Date(data.nextManure  + "T00:00:00");
+  const weeding = new Date(data.lastWeeding + "T00:00:00");
+
+  const harvestDiff = Math.floor((harvest - today) / (1000 * 60 * 60 * 24));
+  const manureDiff  = Math.floor((manure  - today) / (1000 * 60 * 60 * 24));
+  const weedDiff    = Math.floor((today - weeding)  / (1000 * 60 * 60 * 24));
+
+  if (harvestDiff <= 0)  return { text: "Harvest Ready",      class: "ready",   priority: 1 };
+  if (manureDiff  <= 0)  return { text: "Ready for Manuring", class: "soon",    priority: 2 };
+  if (manureDiff  <= 3)  return { text: "Manuring Soon",      class: "soon",    priority: 3 };
+  if (weedDiff    >= 15) return { text: "Weeding Needed",     class: "weeding", priority: 4 };
+
+  return { text: "No Action Needed", class: "growing", priority: 5 };
+}
+
+function render() {
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+
+  let items = Object.keys(farmData).map(k => ({ plot: k, ...farmData[k] }));
+
+  const search = document.getElementById("search").value.toLowerCase();
+  const filter = document.getElementById("filter").value;
+  const sort   = document.getElementById("sort").value;
+
+  items = items.filter(item => {
+    const status = getStatus(item);
+    if (search &&
+        !item.plot.toLowerCase().includes(search) &&
+        !item.plant.toLowerCase().includes(search)) return false;
+    if (filter !== "all" && status.class !== filter) return false;
+    return true;
+  });
+
+  updateTaskSummary(items);
+
+  if (sort === "urgent") {
+    items.sort((a, b) => getStatus(a).priority - getStatus(b).priority);
+  }
+
+  items.forEach(item => {
+    const status = getStatus(item);
+    const card = document.createElement("div");
+    card.className = "card";
+    if (status.priority <= 2) card.classList.add("alert");
+    card.onclick = () => { window.location.href = "index.html?plot=" + item.plot; };
+
+    card.innerHTML = `
+      <div class="plot">${item.plot}</div>
+      <div>${item.plant}</div>
+      <div class="status ${status.class}">${status.text}</div>
+      <div class="small"><span class="emoji">👨‍🌾</span> ${item.staff}</div>
+      <div class="small"><span class="emoji">📅</span>${item.datePlanted}</div>
+      <div class="small"><span class="emoji">🌾</span>${item.estHarvest}</div>
+      <img src="${item.images[0]}" onerror="this.style.display='none'">
+    `;
+
+    grid.appendChild(card);
+  });
+}
+
+function updateTaskSummary(items) {
+  let harvest = 0, manure = 0, weeding = 0;
+  items.forEach(item => {
+    const s = getStatus(item);
+    if (s.class === "ready")   harvest++;
+    if (s.class === "soon")    manure++;
+    if (s.class === "weeding") weeding++;
+  });
+  document.getElementById("taskHarvest").innerText = "🔴 " + harvest + " Harvest Ready";
+  document.getElementById("taskManure").innerText  = "🟡 " + manure  + " Manure Today";
+  document.getElementById("taskWeeding").innerText = "🟣 " + weeding + " Weeding Needed";
+}
+
+function downloadCSVFromSheet() {
+  const url = "https://script.google.com/macros/s/AKfycbykfmOsg9vdLq0Ryt1DxUhxk4TrdjAlV5bufLtM5YZ8fQaf8kPvHSwom411S1dv87zN/exec?type=csv";
+
+  fetch(url)
+    .then(response => response.text())
+    .then(csv => {
+      const blob    = new Blob([csv], { type: "text/csv" });
+      const blobUrl = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = blobUrl;
+      a.download = "master_plot_log.csv";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(blobUrl);
+    })
+    .catch(err => {
+      alert("Download failed: " + err);
+    });
+}
+
+async function load() {
+  const res = await fetch(DATA_URL);
+  farmData = await res.json();
+  render();
+}
+
+document.getElementById("search").addEventListener("input", render);
+document.getElementById("filter").addEventListener("change", render);
+document.getElementById("sort").addEventListener("change", render);
+
+load();
+
+</script>
+
+</body>
+</html>
 
 
 

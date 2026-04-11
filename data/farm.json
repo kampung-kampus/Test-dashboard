@@ -424,11 +424,11 @@
     "datePlanted": "2026-01-10",
     "estHarvest": "2026-04-20",
     "lastManure": "2026-01-10",
-    "nextManure": "2026-04-15",
+    "nextManure": "2026-01-10",
     "lastWeeding": "2026-01-10",
     "uses": "Tarragon is a culinary herb known for its sweet, anise-like (licorice) flavor, widely used in French cuisine to complement chicken, seafood, eggs, and creamy sauces. Medicinally, it is traditionally used to support sleep and digestion.",
     "funFact": "The name tarragon is derived from the Latin word dracunculus, meaning \"little dragon.\"",
-    "botanical": "",
+    "botanical": "Artemisia dracunculus",
     "empty": "",
     "images": [
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tarragon1.jpg",

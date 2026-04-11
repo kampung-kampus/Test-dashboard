@@ -796,5 +796,24 @@
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/nursery2.jpg",
       "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/nursery3.jpg"
     ]
+  },
+  "Plot2": {
+    "plot": "Plot2",
+    "staff": "Mrs Tang",
+    "plant": "Banana                                               ??",
+    "datePlanted": "2026-04-04",
+    "estHarvest": "",
+    "lastManure": "2026-04-03",
+    "nextManure": "2026-04-23",
+    "lastWeeding": "2026-04-08",
+    "uses": "",
+    "funFact": "",
+    "botanical": "",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/banana??1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/banana??2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/banana??3.jpg"
+    ]
   }
 }

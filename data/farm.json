@@ -799,21 +799,21 @@
   },
   "Plot10": {
     "plot": "Plot10",
-    "staff": "Pris",
-    "plant": "Cowslip creeper",
-    "datePlanted": "2026-04-04",
-    "estHarvest": "2027-04-04",
-    "lastManure": "2026-04-04",
-    "nextManure": "2026-04-30",
+    "staff": "Chin Hui",
+    "plant": "Banana",
+    "datePlanted": "",
+    "estHarvest": "",
+    "lastManure": "",
+    "nextManure": "",
     "lastWeeding": "",
-    "uses": "The flowers are a specialty ingredient in Thai, Vietnamese, and Filipino cuisine. They are commonly cooked into omelets, stir-fried with oyster sauce, or used in soups.",
-    "funFact": "The flowers emit a very strong, pleasant citrus-like fragrance, particularly during the evening. This oil is extracted to create perfumes and in floral, aromatic gardens. That is why its Chinese name is ???",
-    "botanical": "Telosma cordata",
+    "uses": "Nutrient-rich fruit, eaten fresh, cooked, or dried.",
+    "funFact": "Known to be one of the first  cultivated fruits in human history; peel can polish leather or soothe bug bites.",
+    "botanical": "Musa paradisiaca",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cowslipcreeper1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cowslipcreeper2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cowslipcreeper3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/banana1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/banana2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/banana3.jpg"
     ]
   }
 }

@@ -1,59 +1,59 @@
 {
   "A01": {
     "plot": "A01",
-    "staff": "Mrs Tang",
-    "plant": "Wintermelon",
-    "datePlanted": "2026-01-02",
-    "estHarvest": "2026-04-12",
-    "lastManure": "2026-01-02",
-    "nextManure": "2026-04-10",
-    "lastWeeding": "2026-01-02",
-    "uses": "Cooked in soups, stews, and desserts.",
-    "funFact": "Large fruit; used in Chinese cuisine.",
-    "botanical": "Benincasa hispida",
+    "staff": "KK",
+    "plant": "Wild watercress",
+    "datePlanted": "2026-04-02",
+    "estHarvest": "2026-05-22",
+    "lastManure": "2026-03-06",
+    "nextManure": "2026-04-21",
+    "lastWeeding": "2026-04-09",
+    "uses": "Used in salads and soups.",
+    "funFact": "Grows in streams; peppery flavor.\n",
+    "botanical": "Nasturtium officinale",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wildwatercress1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wildwatercress2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wildwatercress3.jpg"
     ]
   },
   "A03": {
     "plot": "A03",
-    "staff": "Mrs Tang",
-    "plant": "Ceylon spinach",
-    "datePlanted": "2026-03-03",
-    "estHarvest": "2026-04-22",
-    "lastManure": "2026-03-02",
-    "nextManure": "2026-04-14",
-    "lastWeeding": "2026-03-03",
-    "uses": "Cooking: The leaves and tender stems are  sauteed, steamed, or boiled. Thickening Agent: Because of its mucilaginous  often added to soups and stews to naturally thicken the liquid.",
-    "funFact": "Not a True Spinach. It contains over three times more Vitamin C than regular spinach and more Vitamin A than kale.",
-    "botanical": "Talinum fruticosum. Note that Basella alba (Malabar spinach) is sometimes also referred to as Ceylon spinach.",
+    "staff": "Pris",
+    "plant": "Cabbage",
+    "datePlanted": "2026-04-08",
+    "estHarvest": "2026-08-06",
+    "lastManure": "2026-04-01",
+    "nextManure": "2026-04-21",
+    "lastWeeding": "2026-04-08",
+    "uses": "Used in salads, stir-fries, soups, and pickling.",
+    "funFact": "Can be stored for months; grows well in cool climates.",
+    "botanical": "Brassica oleracea var. capitata",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ceylonspinach1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ceylonspinach2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ceylonspinach3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/cabbage3.jpg"
     ]
   },
   "A04": {
     "plot": "A04",
-    "staff": "Mrs Tang",
-    "plant": "Empty",
-    "datePlanted": "",
-    "estHarvest": "",
-    "lastManure": "",
-    "nextManure": "",
-    "lastWeeding": "",
-    "uses": "Empty plots",
-    "funFact": "",
-    "botanical": "",
+    "staff": "Gwen",
+    "plant": "Blueginger",
+    "datePlanted": "2026-03-05",
+    "estHarvest": "2026-12-30",
+    "lastManure": "2026-04-10",
+    "nextManure": "2026-04-28",
+    "lastWeeding": "2026-04-09",
+    "uses": "Spice for curries, soups, and herbal remedies.",
+    "funFact": "Related to ginger; prized in Thai cuisine for citrus-like aroma.",
+    "botanical": "Dichorisandra thyrsiflora",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/blueginger1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/blueginger2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/blueginger3.jpg"
     ]
   },
   "A05": {
@@ -153,21 +153,21 @@
   },
   "A10": {
     "plot": "A10",
-    "staff": "Mrs Tang",
-    "plant": "Bittergourd",
-    "datePlanted": "2026-02-21",
-    "estHarvest": "2026-04-17",
-    "lastManure": "2026-02-21",
-    "nextManure": "2026-04-06",
-    "lastWeeding": "2026-02-20",
-    "uses": "Used in stir-fries, soups, and medicinal teas.",
-    "funFact": "Known to be able to lower blood sugar; very bitter taste.",
-    "botanical": "Momordica charantia",
+    "staff": "Gwen",
+    "plant": "Tue Jan 06 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
+    "datePlanted": "2026-01-06",
+    "estHarvest": "",
+    "lastManure": "2026-01-07",
+    "nextManure": "2026-04-08",
+    "lastWeeding": "2026-01-09",
+    "uses": "",
+    "funFact": "",
+    "botanical": "",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bittergourd1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bittergourd2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/bittergourd3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tuejan06202600:00:00gmt+0800(singaporestandardtime)1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tuejan06202600:00:00gmt+0800(singaporestandardtime)2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tuejan06202600:00:00gmt+0800(singaporestandardtime)3.jpg"
     ]
   },
   "A11": {
@@ -191,21 +191,21 @@
   },
   "A12": {
     "plot": "A12",
-    "staff": "Mrs Tang",
-    "plant": "Sweet potato",
-    "datePlanted": "2026-01-27",
-    "estHarvest": "2026-05-27",
-    "lastManure": "2026-01-27",
-    "nextManure": "2026-04-21",
-    "lastWeeding": "2026-02-27",
-    "uses": "Tubers eaten roasted, boiled, or fried.",
-    "funFact": "Leaves edible too; highly nutritious root crop.",
-    "botanical": "Ipomoea batatas",
+    "staff": "KK",
+    "plant": "Coral vine",
+    "datePlanted": "2026-04-02",
+    "estHarvest": "2028-12-27",
+    "lastManure": "2026-04-03",
+    "nextManure": "2026-04-22",
+    "lastWeeding": "2026-04-06",
+    "uses": "Edible leaves, used in salads.",
+    "funFact": "",
+    "botanical": "",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/sweetpotato1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/sweetpotato2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/sweetpotato3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/coralvine1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/coralvine2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/coralvine3.jpg"
     ]
   },
   "B01": {
@@ -248,21 +248,21 @@
   },
   "B05": {
     "plot": "B05",
-    "staff": "Mrs Tang",
-    "plant": "Choy sum",
-    "datePlanted": "2026-03-05",
-    "estHarvest": "2026-04-04",
-    "lastManure": "2026-03-05",
-    "nextManure": "2026-04-03",
-    "lastWeeding": "2026-03-06",
-    "uses": "Stir-fried or steamed leafy vegetable.",
-    "funFact": "Popular in Cantonese cuisine; flowers are edible too.",
-    "botanical": "Brassica rapa",
+    "staff": "Kale",
+    "plant": "Ginger",
+    "datePlanted": "2026-02-12",
+    "estHarvest": "2026-12-09",
+    "lastManure": "2026-02-12",
+    "nextManure": "2026-04-15",
+    "lastWeeding": "2026-02-13",
+    "uses": "Root used in cooking, teas, and medicine.",
+    "funFact": "Ancient spice; aids digestion and relieves nausea.",
+    "botanical": "Zingiber officinale",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ginger1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ginger2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ginger3.jpg"
     ]
   },
   "B06": {
@@ -476,21 +476,21 @@
   },
   "C01": {
     "plot": "C01",
-    "staff": "Mrs Tang",
-    "plant": "Kale",
-    "datePlanted": "2026-01-27",
-    "estHarvest": "2026-03-28",
-    "lastManure": "2026-01-27",
-    "nextManure": "2026-04-02",
-    "lastWeeding": "2026-01-27",
-    "uses": "Leafy green, eaten raw, saut?ed, or juiced.",
-    "funFact": "Ancient crop; extremely nutrient-dense ?superfood.?",
-    "botanical": "Brassica oleracea var. acephala",
+    "staff": "KK",
+    "plant": "Tapioca",
+    "datePlanted": "2026-04-16",
+    "estHarvest": "2027-01-11",
+    "lastManure": "2026-04-02",
+    "nextManure": "2026-04-29",
+    "lastWeeding": "2026-04-08",
+    "uses": "Roots used for starch, flour, and desserts.",
+    "funFact": "Staple in tropics; cyanide removed by cooking.",
+    "botanical": "Manihot esculenta Crantz",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/kale1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/kale2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/kale3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tapioca1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tapioca2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tapioca3.jpg"
     ]
   },
   "C04": {
@@ -629,58 +629,58 @@
   "C13": {
     "plot": "C13",
     "staff": "Mrs Tang",
-    "plant": "Choy sum",
-    "datePlanted": "2026-03-07",
-    "estHarvest": "2026-04-06",
-    "lastManure": "2026-03-07",
-    "nextManure": "2026-04-10",
-    "lastWeeding": "2026-03-07",
-    "uses": "Stir-fried or steamed leafy vegetable.",
-    "funFact": "Popular in Cantonese cuisine; flowers are edible too.",
-    "botanical": "Brassica rapa",
+    "plant": "Pigeon pea",
+    "datePlanted": "2026-03-18",
+    "estHarvest": "2026-09-14",
+    "lastManure": "2026-03-18",
+    "nextManure": "2026-04-28",
+    "lastWeeding": "2026-03-12",
+    "uses": "Used in curries, stews, and dal.",
+    "funFact": "Drought-resistant; staple in Indian cuisine.",
+    "botanical": "Cajanus cajan",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pigeonpea1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pigeonpea2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pigeonpea3.jpg"
     ]
   },
   "C14": {
     "plot": "C14",
-    "staff": "Mrs Tang",
-    "plant": "Snake brinjal",
-    "datePlanted": "2026-01-03",
-    "estHarvest": "2026-04-13",
-    "lastManure": "2026-01-03",
-    "nextManure": "2026-04-02",
-    "lastWeeding": "2026-01-02",
-    "uses": "Cooked in curries and stir-fries.",
-    "funFact": "Long, slender eggplant variety; popular in Asia.",
-    "botanical": "Solanum melongena",
+    "staff": "KK",
+    "plant": "Hairy gourd",
+    "datePlanted": "2026-02-25",
+    "estHarvest": "2026-05-06",
+    "lastManure": "2026-04-08",
+    "nextManure": "2026-04-08",
+    "lastWeeding": "2026-04-28",
+    "uses": "They are shaped like a cucumber and have a delicate and almost bland taste. Commonly used in stir-fries and soups, it can also be filled with a meat stuffing and steamed. ",
+    "funFact": "It actually has hairs. When young, the skin is covered in tiny, fine hairs, similar to a kiwi. These fall off as the melon matures.",
+    "botanical": "Benincasa hispida",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/snakebrinjal1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/snakebrinjal2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/snakebrinjal3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/hairygourd1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/hairygourd2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/hairygourd3.jpg"
     ]
   },
   "C02": {
     "plot": "C02",
-    "staff": "Mrs Tang",
-    "plant": "Choy sum",
-    "datePlanted": "2026-03-17",
-    "estHarvest": "2026-04-16",
-    "lastManure": "2026-03-11",
-    "nextManure": "2026-04-17",
-    "lastWeeding": "2026-03-17",
-    "uses": "Stir-fried or steamed leafy vegetable.",
-    "funFact": "Popular in Cantonese cuisine; flowers are edible too.",
+    "staff": "KK",
+    "plant": "Pak choy",
+    "datePlanted": "2026-03-05",
+    "estHarvest": "2026-04-09",
+    "lastManure": "2026-03-05",
+    "nextManure": "2026-04-16",
+    "lastWeeding": "2026-03-05",
+    "uses": "Stir-fried or steamed vegetable.",
+    "funFact": "Compact cabbage; thrives in cool weather.",
     "botanical": "Brassica rapa",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/choysum3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pakchoy3.jpg"
     ]
   },
   "C03": {
@@ -799,21 +799,192 @@
   },
   "Plot10": {
     "plot": "Plot10",
-    "staff": "Mrs Tang",
-    "plant": "Empty",
-    "datePlanted": "",
+    "staff": "Pris",
+    "plant": "Wed Apr 15 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
+    "datePlanted": "2026-04-15",
     "estHarvest": "",
-    "lastManure": "",
-    "nextManure": "",
-    "lastWeeding": "",
-    "uses": "Empty plots",
+    "lastManure": "2026-04-09",
+    "nextManure": "2026-04-30",
+    "lastWeeding": "2026-04-15",
+    "uses": "",
     "funFact": "",
     "botanical": "",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/empty3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr15202600:00:00gmt+0800(singaporestandardtime)1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr15202600:00:00gmt+0800(singaporestandardtime)2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr15202600:00:00gmt+0800(singaporestandardtime)3.jpg"
+    ]
+  },
+  "Plot5": {
+    "plot": "Plot5",
+    "staff": "KK",
+    "plant": "Ginger",
+    "datePlanted": "2026-04-17",
+    "estHarvest": "2027-02-11",
+    "lastManure": "2026-04-17",
+    "nextManure": "2026-04-24",
+    "lastWeeding": "2026-04-17",
+    "uses": "Root used in cooking, teas, and medicine.",
+    "funFact": "Ancient spice; aids digestion and relieves nausea.",
+    "botanical": "Zingiber officinale",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ginger1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ginger2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/ginger3.jpg"
+    ]
+  },
+  "Plot6": {
+    "plot": "Plot6",
+    "staff": "Gwen",
+    "plant": "Wed Apr 15 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
+    "datePlanted": "2026-04-15",
+    "estHarvest": "",
+    "lastManure": "2026-04-14",
+    "nextManure": "2026-04-18",
+    "lastWeeding": "2026-04-12",
+    "uses": "",
+    "funFact": "",
+    "botanical": "",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr15202600:00:00gmt+0800(singaporestandardtime)1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr15202600:00:00gmt+0800(singaporestandardtime)2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr15202600:00:00gmt+0800(singaporestandardtime)3.jpg"
+    ]
+  },
+  "Plot2": {
+    "plot": "Plot2",
+    "staff": "Chin Hui",
+    "plant": "Tue Mar 10 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
+    "datePlanted": "2026-03-10",
+    "estHarvest": "",
+    "lastManure": "2026-04-22",
+    "nextManure": "2026-04-21",
+    "lastWeeding": "2026-04-08",
+    "uses": "",
+    "funFact": "",
+    "botanical": "",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tuemar10202600:00:00gmt+0800(singaporestandardtime)1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tuemar10202600:00:00gmt+0800(singaporestandardtime)2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tuemar10202600:00:00gmt+0800(singaporestandardtime)3.jpg"
+    ]
+  },
+  "Plot8": {
+    "plot": "Plot8",
+    "staff": "Pris",
+    "plant": "Wintermelon",
+    "datePlanted": "2026-04-09",
+    "estHarvest": "2026-07-18",
+    "lastManure": "2026-04-09",
+    "nextManure": "2026-04-23",
+    "lastWeeding": "2026-04-10",
+    "uses": "Cooked in soups, stews, and desserts.",
+    "funFact": "Large fruit; used in Chinese cuisine.",
+    "botanical": "Benincasa hispida",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wintermelon3.jpg"
+    ]
+  },
+  "Plot4": {
+    "plot": "Plot4",
+    "staff": "Pris",
+    "plant": "Tue Mar 24 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
+    "datePlanted": "2026-03-24",
+    "estHarvest": "",
+    "lastManure": "2026-03-24",
+    "nextManure": "2026-04-28",
+    "lastWeeding": "2026-03-05",
+    "uses": "",
+    "funFact": "",
+    "botanical": "",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tuemar24202600:00:00gmt+0800(singaporestandardtime)1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tuemar24202600:00:00gmt+0800(singaporestandardtime)2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tuemar24202600:00:00gmt+0800(singaporestandardtime)3.jpg"
+    ]
+  },
+  "Plot9": {
+    "plot": "Plot9",
+    "staff": "Kale",
+    "plant": "Tue Apr 07 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
+    "datePlanted": "2026-04-07",
+    "estHarvest": "",
+    "lastManure": "2026-04-06",
+    "nextManure": "2026-04-22",
+    "lastWeeding": "2026-04-21",
+    "uses": "",
+    "funFact": "",
+    "botanical": "",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tueapr07202600:00:00gmt+0800(singaporestandardtime)1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tueapr07202600:00:00gmt+0800(singaporestandardtime)2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tueapr07202600:00:00gmt+0800(singaporestandardtime)3.jpg"
+    ]
+  },
+  "Plot3": {
+    "plot": "Plot3",
+    "staff": "Mrs Tang",
+    "plant": "Fri Apr 17 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
+    "datePlanted": "2026-04-17",
+    "estHarvest": "",
+    "lastManure": "2026-04-17",
+    "nextManure": "2026-04-24",
+    "lastWeeding": "2026-04-17",
+    "uses": "",
+    "funFact": "",
+    "botanical": "",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/friapr17202600:00:00gmt+0800(singaporestandardtime)1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/friapr17202600:00:00gmt+0800(singaporestandardtime)2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/friapr17202600:00:00gmt+0800(singaporestandardtime)3.jpg"
+    ]
+  },
+  "Plot7": {
+    "plot": "Plot7",
+    "staff": "Chin Hui",
+    "plant": "Black eyed bean",
+    "datePlanted": "2026-04-07",
+    "estHarvest": "2026-06-21",
+    "lastManure": "2026-04-07",
+    "nextManure": "2026-04-22",
+    "lastWeeding": "2026-04-07",
+    "uses": "Protein-rich legume, eaten boiled, stewed, or sprouted.",
+    "funFact": "Staple in Southern U.S. cuisine; symbol of luck on New Year’s Day.",
+    "botanical": "Vigna unguiculata",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/blackeyedbean1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/blackeyedbean2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/blackeyedbean3.jpg"
+    ]
+  },
+  "Plot1": {
+    "plot": "Plot1",
+    "staff": "Mrs Tang",
+    "plant": "Thu Feb 26 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
+    "datePlanted": "2026-02-26",
+    "estHarvest": "",
+    "lastManure": "2026-02-25",
+    "nextManure": "2026-04-22",
+    "lastWeeding": "2026-03-13",
+    "uses": "",
+    "funFact": "",
+    "botanical": "",
+    "empty": "",
+    "images": [
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/thufeb26202600:00:00gmt+0800(singaporestandardtime)1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/thufeb26202600:00:00gmt+0800(singaporestandardtime)2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/thufeb26202600:00:00gmt+0800(singaporestandardtime)3.jpg"
     ]
   }
 }

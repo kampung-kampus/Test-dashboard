@@ -1,21 +1,21 @@
 {
   "A01": {
     "plot": "A01",
-    "staff": "KK",
-    "plant": "Wild watercress",
-    "datePlanted": "2026-04-02",
-    "estHarvest": "2026-05-22",
-    "lastManure": "2026-03-06",
-    "nextManure": "2026-04-21",
-    "lastWeeding": "2026-04-09",
-    "uses": "Used in salads and soups.",
-    "funFact": "Grows in streams; peppery flavor.\n",
-    "botanical": "Nasturtium officinale",
+    "staff": "Mrs Tang",
+    "plant": "Pa bo cai",
+    "datePlanted": "2026-04-16",
+    "estHarvest": "2026-05-21",
+    "lastManure": "2026-04-17",
+    "nextManure": "2026-04-30",
+    "lastWeeding": "2026-04-29",
+    "uses": "Leafy vegetable, stir-fried or boiled.",
+    "funFact": "Rich in iron; grows quickly.",
+    "botanical": "Brassica rapa subsp. chinensis",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wildwatercress1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wildwatercress2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wildwatercress3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pabocai1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pabocai2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/pabocai3.jpg"
     ]
   },
   "A03": {

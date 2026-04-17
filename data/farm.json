@@ -970,21 +970,21 @@
   },
   "Plot1": {
     "plot": "Plot1",
-    "staff": "Mrs Tang",
-    "plant": "Thu Feb 26 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
-    "datePlanted": "2026-02-26",
-    "estHarvest": "",
-    "lastManure": "2026-02-25",
-    "nextManure": "2026-04-22",
-    "lastWeeding": "2026-03-13",
-    "uses": "",
-    "funFact": "",
-    "botanical": "",
+    "staff": "Chin Hui",
+    "plant": "Basil",
+    "datePlanted": "2026-04-15",
+    "estHarvest": "2026-06-04",
+    "lastManure": "2026-04-08",
+    "nextManure": "2026-04-30",
+    "lastWeeding": "2026-04-08",
+    "uses": "Culinary herb for flavoring dishes, teas, and oils.",
+    "funFact": "Sacred in many cultures especially the  Holy Basil species; repels insects naturally.",
+    "botanical": "Ocimum basilicum",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/thufeb26202600:00:00gmt+0800(singaporestandardtime)1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/thufeb26202600:00:00gmt+0800(singaporestandardtime)2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/thufeb26202600:00:00gmt+0800(singaporestandardtime)3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil3.jpg"
     ]
   }
 }

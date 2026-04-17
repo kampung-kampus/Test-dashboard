@@ -20,21 +20,21 @@
   },
   "A03": {
     "plot": "A03",
-    "staff": "Pris",
-    "plant": "Thu Mar 05 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
-    "datePlanted": "2026-03-05",
+    "staff": "Mrs Tang",
+    "plant": "Wed Apr 15 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
+    "datePlanted": "2026-04-15",
     "estHarvest": "",
-    "lastManure": "2026-04-16",
-    "nextManure": "2026-04-22",
-    "lastWeeding": "2026-04-10",
+    "lastManure": "2026-03-12",
+    "nextManure": "2026-04-19",
+    "lastWeeding": "2026-04-08",
     "uses": "",
     "funFact": "",
     "botanical": "",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/thumar05202600:00:00gmt+0800(singaporestandardtime)1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/thumar05202600:00:00gmt+0800(singaporestandardtime)2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/thumar05202600:00:00gmt+0800(singaporestandardtime)3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr15202600:00:00gmt+0800(singaporestandardtime)1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr15202600:00:00gmt+0800(singaporestandardtime)2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr15202600:00:00gmt+0800(singaporestandardtime)3.jpg"
     ]
   },
   "A04": {

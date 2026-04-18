@@ -344,20 +344,20 @@
   "B10": {
     "plot": "B10",
     "staff": "Mrs Tang",
-    "plant": "Basil",
-    "datePlanted": "2026-01-13",
-    "estHarvest": "2028-10-09",
-    "lastManure": "2026-01-13",
-    "nextManure": "2026-04-08",
-    "lastWeeding": "2026-01-22",
-    "uses": "Culinary herb for flavoring dishes, teas, and oils.",
-    "funFact": "Sacred in many cultures especially the  Holy Basil species; repels insects naturally.",
-    "botanical": "Ocimum basilicum",
+    "plant": "Kang kong",
+    "datePlanted": "2026-04-16",
+    "estHarvest": "2026-05-26",
+    "lastManure": "2026-04-02",
+    "nextManure": "2026-04-29",
+    "lastWeeding": "2026-04-15",
+    "uses": "Stir-fried or boiled vegetable",
+    "funFact": "Grows in water; popular in Southeast Asia.",
+    "botanical": "Ipomoea aquatica",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/basil3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/kangkong1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/kangkong2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/kangkong3.jpg"
     ]
   },
   "B11": {

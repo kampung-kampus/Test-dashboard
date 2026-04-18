@@ -2,20 +2,20 @@
   "A01": {
     "plot": "A01",
     "staff": "Mrs Tang",
-    "plant": "Coral vine",
-    "datePlanted": "2026-04-17",
-    "estHarvest": "2029-01-11",
-    "lastManure": "2026-04-10",
-    "nextManure": "2026-04-23",
-    "lastWeeding": "2026-04-10",
-    "uses": "Edible leaves, used in salads.",
-    "funFact": "",
-    "botanical": "",
+    "plant": "Tapioca",
+    "datePlanted": "2026-03-12",
+    "estHarvest": "2026-12-07",
+    "lastManure": "2026-04-15",
+    "nextManure": "2026-04-29",
+    "lastWeeding": "2026-05-05",
+    "uses": "Roots used for starch, flour, and desserts.",
+    "funFact": "Staple in tropics; cyanide removed by cooking.",
+    "botanical": "Manihot esculenta Crantz",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/coralvine1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/coralvine2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/coralvine3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tapioca1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tapioca2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/tapioca3.jpg"
     ]
   },
   "A03": {

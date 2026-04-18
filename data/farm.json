@@ -875,21 +875,21 @@
   },
   "Plot8": {
     "plot": "Plot8",
-    "staff": "Mrs Tang",
-    "plant": "Wed Apr 01 2026 00:00:00 GMT+0800 (Singapore Standard Time)",
-    "datePlanted": "2026-04-01",
+    "staff": "Kale",
+    "plant": "Seseme",
+    "datePlanted": "2026-04-09",
     "estHarvest": "",
-    "lastManure": "2026-04-09",
-    "nextManure": "2026-04-01",
-    "lastWeeding": "2026-04-09",
+    "lastManure": "2026-04-01",
+    "nextManure": "2026-04-24",
+    "lastWeeding": "2026-04-16",
     "uses": "",
     "funFact": "",
     "botanical": "",
     "empty": "",
     "images": [
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr01202600:00:00gmt+0800(singaporestandardtime)1.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr01202600:00:00gmt+0800(singaporestandardtime)2.jpg",
-      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/wedapr01202600:00:00gmt+0800(singaporestandardtime)3.jpg"
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/seseme1.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/seseme2.jpg",
+      "https://raw.githubusercontent.com/kampung-kampus/office-farm/main/images/seseme3.jpg"
     ]
   },
   "Plot4": {
